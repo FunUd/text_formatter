@@ -25,7 +25,8 @@ prompt = textwrap.dedent("""\
     - 水平展開：類似の問題が発生する可能性がある箇所
     - 不具合修正の備考：修正に関する補足情報
 
-    項目が存在しない場合は、空文字列を返してください。""")
+    項目が存在しない場合は、空文字列を返してください。
+    各項目は必ず一度のみしか出現しません。同じ項目が2つ以上出現することはありません。""")
 
 # 2. Provide a high-quality example to guide the model
 examples = [
@@ -164,7 +165,7 @@ def process_text(text, output_prefix, output_dir, use_local=True, debug_mode=Fal
         # Run the extraction
         result = lx.extract(
             text_or_documents=text,
-            prompt_description=prompt,  # Changed from prompt to prompt_description
+            prompt_description=prompt,
             examples=examples,
             **model_config
         )
