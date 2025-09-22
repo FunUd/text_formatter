@@ -32,13 +32,37 @@ examples = [
         """),
         extractions=[
             lx.data.Extraction(
-                extraction_class="レポート情報",
+                extraction_class="date",
                 extraction_text="作成日: 2024-06-15",
                 attributes={
-                    "creation_date": "2024-06-15",
-                    "last_updated_date": "2024-06-20",
-                    "author": "山田太郎",
-                    "title": "オートメーション機器市場の概要",
+                    "category": "作成日",
+                    "date": "2024-06-15",
+                    "target": "レポート"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="date",
+                extraction_text="最終更新日: 2024-06-20",
+                attributes={
+                    "category": "最終更新日",
+                    "date": "2024-06-20",
+                    "target": "レポート"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="human name",
+                extraction_text="作成者: 山田太郎",
+                attributes={
+                    "category": "作成者",
+                    "name": "山田太郎",
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="title",
+                extraction_text="オートメーション機器市場の概要",
+                attributes={
+                    "category": "report title",
+                    "content": "オートメーション機器市場の概要",
                 }
             ),
         ]
@@ -51,12 +75,22 @@ examples = [
         extractions=[
             lx.data.Extraction(
                 extraction_class="シェア",
-                extraction_text="市場はやや寡占的で、上位5社が世界シェアの約45～60%を占めています",
+                extraction_text="上位5社が世界シェアの約45～60%を占めています",
                 attributes={
                     "company": "上位5社",
                     "rate": "約45～60%",
                     "application": "N/A",
                     "year": "N/A",
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="rate",
+                extraction_text="上位5社が世界シェアの約45～60%を占めています",
+                attributes={
+                    "application": "N/A",
+                    "target": "世界シェア",
+                    "year": "N/A",
+                    "value": "約45～60%",
                 }
             ),
         ]
@@ -70,7 +104,7 @@ examples = [
         """),
         extractions=[
             lx.data.Extraction(
-                extraction_class="ニーズ",
+                extraction_class="needs",
                 extraction_text="創薬・バイオ研究分野（ドラッグディスカバリー、ゲノミクス、プロテオミクスなど）や\n臨床診断（臨床化学分析や遺伝子検査）における自動化ニーズが高まっています",
                 attributes={
                     "application": "創薬・バイオ研究分野",
@@ -79,7 +113,7 @@ examples = [
                 }
             ),
             lx.data.Extraction(
-                extraction_class="ニーズ",
+                extraction_class="needs",
                 extraction_text="創薬・バイオ研究分野（ドラッグディスカバリー、ゲノミクス、プロテオミクスなど）や\n臨床診断（臨床化学分析や遺伝子検査）における自動化ニーズが高まっています",
                 attributes={
                     "application": "臨床診断",
@@ -88,17 +122,17 @@ examples = [
                 }
             ),
             lx.data.Extraction(
-                extraction_class="シェア",
+                extraction_class="rate",
                 extraction_text="特に臨床診断分野は2024年に市場シェア約27%を占め、",
                 attributes={
-                    "company": "上位5社",
-                    "rate": "約27%",
                     "application": "臨床診断分野",
+                    "target": "市場シェア",
                     "year": "2024年",
+                    "value": "約27%",
                 }
             ),
             lx.data.Extraction(
-                extraction_class="ニーズ",
+                extraction_class="needs",
                 extraction_text="特に臨床診断分野は2024年に市場シェア約27%を占め、今後も高齢化や慢性疾患増加に伴い\n検査量増に対応した自動化需要が見込まれます",
                 attributes={
                     "application": "臨床診断分野",
@@ -115,14 +149,24 @@ examples = [
         """),
         extractions=[
             lx.data.Extraction(
-                extraction_class="市場規模",
-                extraction_text="市場規模は2024年に約500億円、前年比10%増加。",
-                attributes={"年": "2024年", "規模": "約500億円", "成長率": "前年比10%増加"}
+                extraction_class="rate",
+                extraction_text="市場規模は2024年に約500億円",
+                attributes={
+                    "application": "N/A",
+                    "target": "市場規模",
+                    "year": "2024年",
+                    "value": "500億円",
+                }
             ),
             lx.data.Extraction(
-                extraction_class="企業",
-                extraction_text="競合主要企業はA社、B社、C社で、A社のシェアが約35%。",
-                attributes={"企業名": "A社、B社、C社", "シェア": "A社約35%","関係": "競合"}
+                extraction_class="rate",
+                extraction_text="市場規競合主要企業はA社、B社、C社で、A社のシェアが約35%。",
+                attributes={
+                    "application": "N/A",
+                    "target": "A社のシェア",
+                    "year": "2024年",
+                    "value": "約35%",
+                }
             ),
         ]
     ),
@@ -135,14 +179,189 @@ examples = [
         """),
         extractions=[
             lx.data.Extraction(
-                extraction_class="製品情報",
-                extraction_text="スマートライトX100(SL-X100)を新規発売しました。\n販売価格は12,000円（税込）です。\nX100は、音声操作に対応しており、消費電力10W、省エネモードを搭載する",
+                extraction_class="name",
+                extraction_text="スマートライトX100(SL-X100)を新規発売しました。",
                 attributes={
-                    "製品名": "スマートライトX100",
-                    "モデル名": "SL-X100",
-                    "価格": "12,000円（税込）",
-                    "特徴": "音声操作対応、消費電力10W、省エネモード搭載",
-                            }
+                    "product_name": "スマートライトX100",
+                    "model_name": "SL-X100",
+                    "category": "スマートホーム",
+                    "subcategory": "照明",
+                    "version": "N/A"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="price",
+                extraction_text="販売価格は12,000円（税込）です。",
+                attributes={
+                    "base_price": "12,000円（税込）",
+                    "subscription": "N/A",
+                    "additional_fees": "N/A",
+                    "price_type": "one-time"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="features",
+                extraction_text="音声操作に対応しており、消費電力10W、省エネモードを搭載する",
+                attributes={
+                    "core_features": [
+                        "音声操作対応",
+                        "省エネモード搭載"
+                    ],
+                    "premium_features": "N/A",
+                    "performance": "消費電力10W"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="specifications",
+                extraction_text="音声操作に対応しており、消費電力10W、省エネモードを搭載する",
+                attributes={
+                    "technical_specs": {
+                        "power": "10W"
+                    },
+                    "connectivity": "N/A",
+                    "standards": "N/A",
+                    "dimensions": "N/A"
+                }
+            ),
+        ]
+    ),
+    lx.data.ExampleData(
+        text=textwrap.dedent("""
+                            AI画像処理ソフトウェア「ImageAI Pro Version 2.5」をリリースしました。
+                            ライセンス料金は、スタンダードプランが月額4,980円（税込）、
+                            エンタープライズプランが月額29,800円（税込）となります。
+                            
+                            主な機能：
+                            - AIによる自動画像補正
+                            - バッチ処理対応（最大1000枚/分）
+                            - クラウドストレージ連携
+                            - API提供（エンタープライズプランのみ）
+        """),
+        extractions=[
+            lx.data.Extraction(
+                extraction_class="name",
+                extraction_text="AI画像処理ソフトウェア「ImageAI Pro Version 2.5」をリリースしました。",
+                attributes={
+                    "product_name": "ImageAI Pro",
+                    "model_name": "N/A",
+                    "category": "ソフトウェア",
+                    "subcategory": "画像処理",
+                    "version": "2.5"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="price",
+                extraction_text="ライセンス料金は、スタンダードプランが月額4,980円（税込）、\nエンタープライズプランが月額29,800円（税込）となります。",
+                attributes={
+                    "base_price": "月額4,980円（税込）",
+                    "subscription": "月額",
+                    "additional_fees": {
+                        "enterprise": "月額29,800円（税込）"
+                    },
+                    "price_type": "subscription"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="features",
+                extraction_text="主な機能：\n- AIによる自動画像補正\n- バッチ処理対応（最大1000枚/分）\n- クラウドストレージ連携\n- API提供（エンタープライズプランのみ）",
+                attributes={
+                    "core_features": [
+                        "AIによる自動画像補正",
+                        "バッチ処理対応",
+                        "クラウドストレージ連携"
+                    ],
+                    "premium_features": [
+                        "API提供"
+                    ],
+                    "performance": "最大1000枚/分"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="specifications",
+                extraction_text="バッチ処理対応（最大1000枚/分）",
+                attributes={
+                    "technical_specs": {
+                        "processing_speed": "1000枚/分"
+                    },
+                    "connectivity": "クラウドストレージ連携",
+                    "standards": "N/A",
+                    "dimensions": "N/A"
+                }
+            ),
+        ]
+    ),
+    # IoT製品の例
+    lx.data.ExampleData(
+        text=textwrap.dedent("""
+                            スマートホームハブ「HomeConnect Pro (HC-P200)」発売開始のお知らせ
+                            
+                            本体価格：35,800円（税込）
+                            ※クラウドサービス利用料は1年間無料、2年目以降は年額3,600円（税込）
+                            
+                            特徴：
+                            - Wi-Fi 6対応
+                            - Matter規格準拠
+                            - 最大200台のデバイス接続
+                            - AI搭載省エネ制御
+                            - バッテリーバックアップ（4時間）
+                            
+                            対応規格：
+                            Zigbee 3.0、Bluetooth 5.2、Thread
+        """),
+        extractions=[
+            lx.data.Extraction(
+                extraction_class="name",
+                extraction_text="スマートホームハブ「HomeConnect Pro (HC-P200)」発売開始のお知らせ",
+                attributes={
+                    "product_name": "HomeConnect Pro",
+                    "model_name": "HC-P200",
+                    "category": "スマートホーム",
+                    "subcategory": "ハブ",
+                    "version": "N/A"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="price",
+                extraction_text="本体価格：35,800円（税込）\n※クラウドサービス利用料は1年間無料、2年目以降は年額3,600円（税込）",
+                attributes={
+                    "base_price": "35,800円（税込）",
+                    "subscription": "年額3,600円（税込）",
+                    "additional_fees": "N/A",
+                    "price_type": "hybrid"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="features",
+                extraction_text="特徴：\n- Wi-Fi 6対応\n- Matter規格準拠\n- 最大200台のデバイス接続\n- AI搭載省エネ制御\n- バッテリーバックアップ（4時間）",
+                attributes={
+                    "core_features": [
+                        "AI搭載省エネ制御",
+                        "バッテリーバックアップ",
+                        "最大200台のデバイス接続"
+                    ],
+                    "premium_features": "N/A",
+                    "performance": "バッテリー駆動4時間"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="specifications",
+                extraction_text="対応規格：\nZigbee 3.0、Bluetooth 5.2、Thread",
+                attributes={
+                    "technical_specs": {
+                        "max_devices": "200台",
+                        "backup_time": "4時間"
+                    },
+                    "connectivity": [
+                        "Wi-Fi 6",
+                        "Bluetooth 5.2"
+                    ],
+                    "standards": [
+                        "Matter",
+                        "Zigbee 3.0",
+                        "Thread"
+                    ],
+                    "dimensions": "N/A"
+                }
             ),
         ]
     ),

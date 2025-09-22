@@ -220,7 +220,7 @@ def main():
     parser.add_argument('--debug', action='store_true',
                       help='デバッグ情報を表示する')
     args = parser.parse_args()
-    
+
     # Define directories
     input_dir = Path("input")
     output_dir = Path("out")
