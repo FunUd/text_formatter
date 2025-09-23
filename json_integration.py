@@ -108,34 +108,130 @@ class LangExtractIntegrator:
         """
         merged = {}
         
+        # 構造化されたデータを保持するための辞書
+        structured_data = {}
+        
         for attrs in attributes_list:
             for key, value in attrs.items():
                 if value == "N/A" or not value:
                     continue
-                    
-                if key not in merged:
-                    merged[key] = value
+                
+                # 構造化データのキーワードをチェック
+                if self._is_structured_key(key, value, attrs):
+                    self._merge_structured_data(structured_data, key, value, attrs)
                 else:
-                    existing = merged[key]
-                    
-                    # 既存の値と同じ場合はスキップ
-                    if existing == value:
-                        continue
-                    
-                    # 異なる値の場合はリスト化
-                    if not isinstance(existing, list):
-                        merged[key] = [existing]
-                    
-                    # 新しい値を追加（重複を避ける）
-                    if isinstance(value, list):
-                        for item in value:
-                            if item not in merged[key]:
-                                merged[key].append(item)
+                    # 通常のマージ処理
+                    if key not in merged:
+                        merged[key] = value
                     else:
-                        if value not in merged[key]:
-                            merged[key].append(value)
+                        existing = merged[key]
+                        
+                        # 既存の値と同じ場合はスキップ
+                        if existing == value:
+                            continue
+                        
+                        # 異なる値の場合はリスト化
+                        if not isinstance(existing, list):
+                            merged[key] = [existing]
+                        
+                        # 新しい値を追加（重複を避ける）
+                        if isinstance(value, list):
+                            for item in value:
+                                if item not in merged[key]:
+                                    merged[key].append(item)
+                        else:
+                            if value not in merged[key]:
+                                merged[key].append(value)
+        
+        # 構造化データをマージ結果に統合
+        merged.update(structured_data)
         
         return merged
+    
+    def _is_structured_key(self, key: str, value: Any, attrs: Dict[str, Any]) -> bool:
+        """
+        構造化データのキーかどうかを判定する
+        
+        Args:
+            key: キー名
+            value: 値
+            attrs: 属性辞書
+            
+        Returns:
+            構造化データのキーかどうか
+        """
+        # 数値データの関連キーをチェック
+        structured_keys = {'value', 'unit', 'context', 'year', 'target', 'size', 'rate', 'price'}
+        return key in structured_keys and len(attrs) > 1
+    
+    def _merge_structured_data(self, structured_data: Dict[str, Any], key: str, value: Any, attrs: Dict[str, Any]):
+        """
+        構造化データをマージする
+        
+        Args:
+            structured_data: 構造化データを格納する辞書
+            key: キー名
+            value: 値
+            attrs: 属性辞書
+        """
+        # 関連するキーを収集
+        related_keys = {}
+        for k, v in attrs.items():
+            if k in {'value', 'unit', 'context', 'year', 'target', 'size', 'rate', 'price', 'currency'} and v != "N/A":
+                related_keys[k] = v
+        
+        # 構造化データのIDを生成（主要な識別子を使用）
+        data_id = self._generate_structured_id(related_keys)
+        
+        if data_id not in structured_data:
+            structured_data[data_id] = {}
+        
+        # 各キーの値をマージ
+        for k, v in related_keys.items():
+            if k not in structured_data[data_id]:
+                structured_data[data_id][k] = v
+            else:
+                existing = structured_data[data_id][k]
+                if existing != v:
+                    if not isinstance(existing, list):
+                        structured_data[data_id][k] = [existing]
+                    if isinstance(v, list):
+                        for item in v:
+                            if item not in structured_data[data_id][k]:
+                                structured_data[data_id][k].append(item)
+                    else:
+                        if v not in structured_data[data_id][k]:
+                            structured_data[data_id][k].append(v)
+    
+    def _generate_structured_id(self, related_keys: Dict[str, Any]) -> str:
+        """
+        構造化データのIDを生成する
+        
+        Args:
+            related_keys: 関連するキーの辞書
+            
+        Returns:
+            生成されたID
+        """
+        # 主要な識別子を優先的に使用
+        priority_keys = ['context', 'target', 'year', 'unit']
+        
+        for priority_key in priority_keys:
+            if priority_key in related_keys:
+                value = related_keys[priority_key]
+                if isinstance(value, list):
+                    value = value[0] if value else "unknown"
+                return f"{priority_key}_{str(value)}"
+        
+        # フォールバック: 最初のキーと値を使用
+        if related_keys:
+            first_key = list(related_keys.keys())[0]
+            first_value = related_keys[first_key]
+            if isinstance(first_value, list):
+                first_value = first_value[0] if first_value else "unknown"
+            return f"{first_key}_{str(first_value)}"
+        
+        return "unknown_data"
     
     def generate_summary(self, extractions: List[Dict[str, Any]]) -> str:
         """
