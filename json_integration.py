@@ -108,8 +108,8 @@ class LangExtractIntegrator:
         """
         merged = {}
         
-        # 関連する数値データをグループ化
-        numeric_groups = self._group_numeric_data(attributes_list)
+        # 数値データをタプル形式で収集
+        numeric_tuples = self._extract_numeric_tuples(attributes_list)
         
         # 通常の属性をマージ
         for attrs in attributes_list:
@@ -144,23 +144,23 @@ class LangExtractIntegrator:
                         if value not in merged[key]:
                             merged[key].append(value)
         
-        # 数値データを構造化して追加
-        if numeric_groups:
-            merged['numeric_data'] = numeric_groups
+        # 数値データをタプル形式で追加
+        if numeric_tuples:
+            merged['numeric_data'] = numeric_tuples
         
         return merged
     
-    def _group_numeric_data(self, attributes_list: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    def _extract_numeric_tuples(self, attributes_list: List[Dict[str, Any]]) -> List[List[str]]:
         """
-        数値データを関連性に基づいてグループ化する
+        数値データをタプル形式（[value, unit, context]）で抽出する
         
         Args:
             attributes_list: 属性のリスト
             
         Returns:
-            グループ化された数値データのリスト
+            タプル形式の数値データのリスト
         """
-        numeric_groups = []
+        numeric_tuples = []
         
         for attrs in attributes_list:
             # 数値関連のキーを持つオブジェクトをチェック
@@ -170,65 +170,23 @@ class LangExtractIntegrator:
                     numeric_keys[key] = attrs[key]
             
             if numeric_keys:
-                # 既存のグループと関連性をチェック
-                matched_group = None
-                for group in numeric_groups:
-                    if self._are_related(numeric_keys, group):
-                        matched_group = group
-                        break
+                # タプルを作成: [value, unit, context, year, target]
+                tuple_data = []
                 
-                if matched_group:
-                    # 既存のグループにマージ
-                    self._merge_numeric_group(matched_group, numeric_keys)
-                else:
-                    # 新しいグループを作成
-                    numeric_groups.append(numeric_keys.copy())
+                # 優先順位に従って値を取得
+                tuple_data.append(numeric_keys.get('value', ''))
+                tuple_data.append(numeric_keys.get('unit', ''))
+                tuple_data.append(numeric_keys.get('context', ''))
+                tuple_data.append(numeric_keys.get('year', ''))
+                tuple_data.append(numeric_keys.get('target', ''))
+                
+                # 空でない値のみを保持
+                tuple_data = [str(v) for v in tuple_data if v and str(v).strip()]
+                
+                if tuple_data:
+                    numeric_tuples.append(tuple_data)
         
-        return numeric_groups
-    
-    def _are_related(self, keys1: Dict[str, Any], keys2: Dict[str, Any]) -> bool:
-        """
-        2つの数値データセットが関連しているかどうかを判定する
-        
-        Args:
-            keys1: 最初のデータセット
-            keys2: 2番目のデータセット
-            
-        Returns:
-            関連しているかどうか
-        """
-        # 共通のキーで同じ値を持つ場合は関連しているとみなす
-        common_keys = set(keys1.keys()) & set(keys2.keys())
-        
-        for key in common_keys:
-            if key in {'context', 'target', 'year', 'unit'} and keys1[key] == keys2[key]:
-                return True
-        
-        return False
-    
-    def _merge_numeric_group(self, group: Dict[str, Any], new_keys: Dict[str, Any]):
-        """
-        数値グループに新しいキーをマージする
-        
-        Args:
-            group: 既存のグループ
-            new_keys: 新しいキー
-        """
-        for key, value in new_keys.items():
-            if key not in group:
-                group[key] = value
-            else:
-                existing = group[key]
-                if existing != value:
-                    if not isinstance(existing, list):
-                        group[key] = [existing]
-                    if isinstance(value, list):
-                        for item in value:
-                            if item not in group[key]:
-                                group[key].append(item)
-                    else:
-                        if value not in group[key]:
-                            group[key].append(value)
+        return numeric_tuples
     
     def generate_summary(self, extractions: List[Dict[str, Any]]) -> str:
         """

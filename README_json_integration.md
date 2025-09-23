@@ -60,7 +60,12 @@ python json_integration.py input_file.jsonl -o output_file.json --verbose
   "attributes": {
     "キー1": "値1",
     "キー2": ["値2a", "値2b"],
-    "キー3": "値3"
+    "キー3": "値3",
+    "numeric_data": [
+      ["6", "%", "エラー率"],
+      ["4.8", "%", "実世界でのエラー率"],
+      ["$1.25", "$/1Mトークン", "入力料金", "2024"]
+    ]
   },
   "sources": [
     {
@@ -70,6 +75,14 @@ python json_integration.py input_file.jsonl -o output_file.json --verbose
   ]
 }
 ```
+
+### 数値データのタプル形式
+
+数値関連のデータ（`value`, `unit`, `context`, `year`, `target`など）は、`numeric_data`配列内でタプル形式（`[value, unit, context, year, target]`）で保存されます。これにより、どの値がどの単位や文脈に対応するかが明確になります。
+
+例：
+- `["6", "%", "エラー率"]` → 値6、単位%、文脈エラー率
+- `["$1.25", "$/1Mトークン", "入力料金", "2024"]` → 値$1.25、単位$/1Mトークン、文脈入力料金、年2024
 
 ## 統合キー
 
