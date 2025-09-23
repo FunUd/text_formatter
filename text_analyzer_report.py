@@ -23,6 +23,122 @@ prompt = textwrap.dedent("""\
 
 # 2. Provide a high-quality example to guide the model
 examples = [
+    # 市場分析レポートの例
+    lx.data.ExampleData(
+        text=textwrap.dedent("""
+                            市場動向分析レポート：AI・機械学習市場 2025年第2四半期
+                            
+                            市場規模：
+                            - グローバル市場：2,850億米ドル（前年比+18%）
+                            - 国内市場：3.2兆円（前年比+15%）
+                            
+                            成長率予測：
+                            - 2025年：+18%
+                            - 2026年：+22%
+                            - 2027年：+25%
+                            
+                            主要プレイヤー：
+                            1. TechCorp（市場シェア28%）
+                            2. AIソリューションズ（市場シェア22%）
+                            3. DataMind（市場シェア15%）
+                            
+                            成長要因：
+                            - デジタルトランスフォーメーションの加速
+                            - 自動化需要の増加
+                            - クラウドAIの普及
+                            
+                            リスク要因：
+                            - 人材不足
+                            - データプライバシー規制
+                            - 技術標準化の遅れ
+                        """),
+        extractions=[
+            lx.data.Extraction(
+                extraction_class="market_size",
+                extraction_text="グローバル市場：2,850億米ドル（前年比+18%）",
+                attributes={
+                    "market_type": "グローバル",
+                    "size": "2,850億米ドル",
+                    "growth_rate": "+18%",
+                    "year": "2025",
+                    "currency": "米ドル"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="market_size",
+                extraction_text="国内市場：3.2兆円（前年比+15%）",
+                attributes={
+                    "market_type": "国内",
+                    "size": "3.2兆円",
+                    "growth_rate": "+15%",
+                    "year": "2025",
+                    "currency": "円"
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="growth_forecast",
+                extraction_text="2025年：+18%\n2026年：+22%\n2027年：+25%",
+                attributes={
+                    "forecasts": [
+                        {"year": "2025", "rate": "+18%"},
+                        {"year": "2026", "rate": "+22%"},
+                        {"year": "2027", "rate": "+25%"}
+                    ]
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="market_player",
+                extraction_text="1. TechCorp（市場シェア28%）",
+                attributes={
+                    "company_name": "TechCorp",
+                    "market_share": "28%",
+                    "rank": 1
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="market_player",
+                extraction_text="2. AIソリューションズ（市場シェア22%）",
+                attributes={
+                    "company_name": "AIソリューションズ",
+                    "market_share": "22%",
+                    "rank": 2
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="market_player",
+                extraction_text="3. DataMind（市場シェア15%）",
+                attributes={
+                    "company_name": "DataMind",
+                    "market_share": "15%",
+                    "rank": 3
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="factors",
+                extraction_text="成長要因：\n- デジタルトランスフォーメーションの加速\n- 自動化需要の増加\n- クラウドAIの普及",
+                attributes={
+                    "factor_type": "growth",
+                    "factors": [
+                        "デジタルトランスフォーメーションの加速",
+                        "自動化需要の増加",
+                        "クラウドAIの普及"
+                    ]
+                }
+            ),
+            lx.data.Extraction(
+                extraction_class="factors",
+                extraction_text="リスク要因：\n- 人材不足\n- データプライバシー規制\n- 技術標準化の遅れ",
+                attributes={
+                    "factor_type": "risk",
+                    "factors": [
+                        "人材不足",
+                        "データプライバシー規制",
+                        "技術標準化の遅れ"
+                    ]
+                }
+            )
+        ]
+    ),
     lx.data.ExampleData(
         text=textwrap.dedent("""
                                 作成日: 2024-06-15
@@ -84,13 +200,14 @@ examples = [
                 }
             ),
             lx.data.Extraction(
-                extraction_class="rate",
+                extraction_class="numeric_value",
                 extraction_text="上位5社が世界シェアの約45～60%を占めています",
                 attributes={
-                    "application": "N/A",
-                    "target": "世界シェア",
-                    "year": "N/A",
                     "value": "約45～60%",
+                    "unit": "%",
+                    "context": "世界シェア",
+                    "year": "N/A",
+                    "target": "上位5社"
                 }
             ),
         ]
@@ -122,13 +239,14 @@ examples = [
                 }
             ),
             lx.data.Extraction(
-                extraction_class="rate",
+                extraction_class="numeric_value",
                 extraction_text="特に臨床診断分野は2024年に市場シェア約27%を占め、",
                 attributes={
-                    "application": "臨床診断分野",
-                    "target": "市場シェア",
-                    "year": "2024年",
                     "value": "約27%",
+                    "unit": "%",
+                    "context": "市場シェア",
+                    "year": "2024年",
+                    "target": "臨床診断分野"
                 }
             ),
             lx.data.Extraction(
@@ -149,23 +267,25 @@ examples = [
         """),
         extractions=[
             lx.data.Extraction(
-                extraction_class="rate",
+                extraction_class="numeric_value",
                 extraction_text="市場規模は2024年に約500億円",
                 attributes={
-                    "application": "N/A",
-                    "target": "市場規模",
-                    "year": "2024年",
                     "value": "500億円",
+                    "unit": "円",
+                    "context": "市場規模",
+                    "year": "2024年",
+                    "target": "N/A"
                 }
             ),
             lx.data.Extraction(
-                extraction_class="rate",
+                extraction_class="numeric_value",
                 extraction_text="市場規競合主要企業はA社、B社、C社で、A社のシェアが約35%。",
                 attributes={
-                    "application": "N/A",
-                    "target": "A社のシェア",
-                    "year": "2024年",
                     "value": "約35%",
+                    "unit": "%",
+                    "context": "シェア",
+                    "year": "2024年",
+                    "target": "A社"
                 }
             ),
         ]
