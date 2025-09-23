@@ -1,0 +1,3755 @@
+[
+  {
+    "id": "report title",
+    "classes": [
+      "title"
+    ],
+    "summary": "大規模言語モデル（LLM）比較分析レポート：主要モデルの性能、コスト、ユースケース、そして戦略的展望",
+    "attributes": {
+      "category": "report title",
+      "content": "大規模言語モデル（LLM）比較分析レポート：主要モデルの性能、コスト、ユースケース、そして戦略的展望"
+    },
+    "sources": [
+      {
+        "extraction_class": "title",
+        "extraction_text": "大規模言語モデル（LLM）比較分析レポート：主要モデルの性能、コスト、ユースケース、そして戦略的展望"
+      }
+    ]
+  },
+  {
+    "id": "OpenAI",
+    "classes": [
+      "market_player"
+    ],
+    "summary": "OpenAI",
+    "attributes": {
+      "company_name": "OpenAI"
+    },
+    "sources": [
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "OpenAI"
+      },
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "OpenAI"
+      }
+    ]
+  },
+  {
+    "id": "Google",
+    "classes": [
+      "market_player"
+    ],
+    "summary": "Google",
+    "attributes": {
+      "company_name": "Google"
+    },
+    "sources": [
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Google"
+      },
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Google"
+      }
+    ]
+  },
+  {
+    "id": "Anthropic",
+    "classes": [
+      "market_player"
+    ],
+    "summary": "Anthropic",
+    "attributes": {
+      "company_name": "Anthropic"
+    },
+    "sources": [
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Anthropic"
+      },
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Anthropic"
+      }
+    ]
+  },
+  {
+    "id": "Meta",
+    "classes": [
+      "market_player"
+    ],
+    "summary": "Meta | MetaのLlamaシリーズは、オープンソースLLMの性能と実用性を飛躍的に向上させ、市場の主要なプレーヤーとしての地位を確立しました。",
+    "attributes": {
+      "company_name": "Meta"
+    },
+    "sources": [
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Meta"
+      },
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Meta"
+      },
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "MetaのLlamaシリーズは、オープンソースLLMの性能と実用性を飛躍的に向上させ、市場の主要なプレーヤーとしての地位を確立しました。"
+      }
+    ]
+  },
+  {
+    "id": "Mistral",
+    "classes": [
+      "market_player"
+    ],
+    "summary": "Mistral",
+    "attributes": {
+      "company_name": "Mistral"
+    },
+    "sources": [
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Mistral"
+      },
+      {
+        "extraction_class": "market_player",
+        "extraction_text": "Mistral"
+      }
+    ]
+  },
+  {
+    "id": "GPT-5",
+    "classes": [
+      "date",
+      "numeric_value",
+      "name"
+    ],
+    "summary": "OpenAIのGPT-5 | GPT-5 | 2025年8月に発表されたGPT-5 | 6%という極めて低いエラー率を記録し | 実世界でのエラー率が11.6%から4.8%へと劇的に改善するとされています",
+    "attributes": {
+      "product_name": "GPT-5",
+      "category": [
+        "大規模言語モデル",
+        "発表日",
+        "LLM",
+        "AIモデル"
+      ],
+      "subcategory": "プロプライエタリ",
+      "date": "2025年8月",
+      "version": "5",
+      "numeric_data": [
+        {
+          "target": "GPT-5",
+          "unit": [
+            "%",
+            "$/1Mトークン",
+            "トークン"
+          ],
+          "context": [
+            "エラー率",
+            "実世界でのエラー率",
+            "入力料金",
+            "出力料金",
+            "コンテキストサイズ"
+          ],
+          "value": [
+            "6",
+            "4.8",
+            "$1.25",
+            "$10.00",
+            "400k"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "OpenAIのGPT-5"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-5"
+      },
+      {
+        "extraction_class": "date",
+        "extraction_text": "2025年8月に発表されたGPT-5"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "6%という極めて低いエラー率を記録し"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "実世界でのエラー率が11.6%から4.8%へと劇的に改善するとされています"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-5"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $1.25"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $10.00"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-5"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "400k"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-5"
+      }
+    ]
+  },
+  {
+    "id": "医療、法律",
+    "classes": [
+      "needs"
+    ],
+    "summary": "医療や法律といったミッションクリティカルな分野での活用に焦点を当てています",
+    "attributes": {
+      "application": "医療、法律",
+      "needs": "ミッションクリティカルな分野での活用"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "医療や法律といったミッションクリティカルな分野での活用に焦点を当てています"
+      }
+    ]
+  },
+  {
+    "id": "大規模言語モデル",
+    "classes": [
+      "name"
+    ],
+    "summary": "Googleの Gemini 1.5 Pro | Llama 4シリーズ | Llama 3.3 | Gemini 1.5 Pro",
+    "attributes": {
+      "product_name": [
+        "Gemini 1.5 Pro",
+        "Llama 4シリーズ",
+        "Llama 3.3"
+      ],
+      "category": "大規模言語モデル",
+      "version": [
+        "1.5 Pro",
+        "3.3"
+      ],
+      "subcategory": [
+        "オープンソース",
+        "プロプライエタリ"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Googleの Gemini 1.5 Pro"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 4シリーズ"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.3"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1.5 Pro"
+      }
+    ]
+  },
+  {
+    "id": "Gemini 1.5 Pro",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "最大200万トークン | Gemini 1.5 Proの85.9% | Gemini 1.5 Pro（71.9%） | Gemini 1.5 Pro（67.7%） | 85.9%",
+    "attributes": {
+      "product_name": "Gemini 1.5 Pro",
+      "category": "LLM",
+      "version": "1.5",
+      "numeric_data": [
+        {
+          "target": "Gemini 1.5 Pro",
+          "unit": [
+            "トークン",
+            "%",
+            "$/1Mトークン"
+          ],
+          "context": [
+            "コンテキストウィンドウ",
+            "MMULベンチマークスコア",
+            "HumanEvalベンチマーク",
+            "MATHベンチマーク",
+            "MMLUスコア",
+            "HumanEval（コーディング能力評価）",
+            "MATH-500（数学的推論能力評価）",
+            "入力料金",
+            "出力料金",
+            "コンテキストサイズ"
+          ],
+          "value": [
+            "200万",
+            "85.9",
+            "71.9",
+            "67.7",
+            "$1.25〜$2.50",
+            "$5.00〜$10.00"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "最大200万トークン"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Gemini 1.5 Proの85.9%"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Gemini 1.5 Pro（71.9%）"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Gemini 1.5 Pro（67.7%）"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "85.9%"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Gemini 1.5 Pro（71.9%）"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Gemini 1.5 Pro（67.7%）"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1.5 Pro"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $1.25〜$2.50"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $5.00〜$10.00"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1.5 Pro"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "200万"
+      }
+    ]
+  },
+  {
+    "id": "超長文処理、大規模なデータ分析",
+    "classes": [
+      "needs"
+    ],
+    "summary": "超長文処理や大規模なデータ分析において独走状態にあります",
+    "attributes": {
+      "application": "超長文処理、大規模なデータ分析",
+      "trends": "独走状態"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "超長文処理や大規模なデータ分析において独走状態にあります"
+      }
+    ]
+  },
+  {
+    "id": "Claude",
+    "classes": [
+      "name"
+    ],
+    "summary": "Anthropicの Claude 3/3.5シリーズ",
+    "attributes": {
+      "product_name": "Claude",
+      "category": "大規模言語モデル",
+      "version": "3/3.5シリーズ"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Anthropicの Claude 3/3.5シリーズ"
+      }
+    ]
+  },
+  {
+    "id": "企業向けの業務自動化",
+    "classes": [
+      "needs"
+    ],
+    "summary": "企業向けの業務自動化に特化しています",
+    "attributes": {
+      "application": "企業向けの業務自動化",
+      "trends": "特化"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "企業向けの業務自動化に特化しています"
+      }
+    ]
+  },
+  {
+    "id": "Llama",
+    "classes": [
+      "name"
+    ],
+    "summary": "MetaのLlama 4シリーズ | Llama 4シリーズ",
+    "attributes": {
+      "product_name": "Llama",
+      "category": [
+        "大規模言語モデル",
+        "LLM"
+      ],
+      "version": "4シリーズ",
+      "model_name": "4シリーズ"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "MetaのLlama 4シリーズ"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 4シリーズ"
+      }
+    ]
+  },
+  {
+    "id": "Llama 4シリーズ",
+    "classes": [
+      "name"
+    ],
+    "summary": "Llama 4シリーズは、MoE（Mixture-of-Experts）アーキテクチャの採用により、オープンソースモデルの性能限界を押し上げ、特にコーディングや数学的推論といった技術分野で高いス... | 最新のLlama 4シリーズ",
+    "attributes": {
+      "product_name": "Llama 4シリーズ",
+      "category": "LLM",
+      "subcategory": "オープンソースモデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 4シリーズは、MoE（Mixture-of-Experts）アーキテクチャの採用により、オープンソースモデルの性能限界を押し上げ、特にコーディングや数学的推論といった技術分野で高いスコアを記録しています"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "最新のLlama 4シリーズ"
+      }
+    ]
+  },
+  {
+    "id": "Mistral AIのモデル群",
+    "classes": [
+      "name"
+    ],
+    "summary": "Mistral AIのモデル群は、軽量かつ高速な設計により、リソース効率とコスト効率を重視するユーザーに強く訴求しています",
+    "attributes": {
+      "product_name": "Mistral AIのモデル群",
+      "category": "LLM"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Mistral AIのモデル群は、軽量かつ高速な設計により、リソース効率とコスト効率を重視するユーザーに強く訴求しています"
+      }
+    ]
+  },
+  {
+    "id": "section title",
+    "classes": [
+      "title"
+    ],
+    "summary": "LLM市場の進化と主要モデルの戦略的類型",
+    "attributes": {
+      "category": "section title",
+      "content": "LLM市場の進化と主要モデルの戦略的類型"
+    },
+    "sources": [
+      {
+        "extraction_class": "title",
+        "extraction_text": "LLM市場の進化と主要モデルの戦略的類型"
+      }
+    ]
+  },
+  {
+    "id": "subsection title",
+    "classes": [
+      "title"
+    ],
+    "summary": "プロプライエタリ（クローズド）モデル vs.",
+    "attributes": {
+      "category": "subsection title",
+      "content": "プロプライエタリ（クローズド）モデル vs."
+    },
+    "sources": [
+      {
+        "extraction_class": "title",
+        "extraction_text": "プロプライエタリ（クローズド）モデル vs."
+      }
+    ]
+  },
+  {
+    "id": "GPT-4",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "GPT-4 | GPT-4の86.4% | GPT-4（86.6%） | GPT-4（64. | 86.4%",
+    "attributes": {
+      "product_name": "GPT-4",
+      "category": "大規模言語モデル",
+      "subcategory": "プロプライエタリ",
+      "numeric_data": [
+        {
+          "target": "GPT-4",
+          "unit": "%",
+          "context": [
+            "MMULベンチマークスコア",
+            "HumanEvalベンチマーク",
+            "MATHベンチマーク",
+            "MMLUスコア",
+            "HumanEval（コーディング能力評価）",
+            "MATH-500（数学的推論能力評価）"
+          ],
+          "value": [
+            "86.4",
+            "86.6",
+            "64",
+            "64.5"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "GPT-4の86.4%"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "GPT-4（86.6%）"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "GPT-4（64."
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "86.4%"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "GPT-4（86.6%）"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "GPT-4（64.5%）"
+      }
+    ]
+  },
+  {
+    "id": "Llama 3.3",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "Metaの最新モデルであるLlama 3.3は、MMUL（学部レベルの知識評価）ベンチマークで86%のスコアを記録し | Llama 3.3 | HumanEvalベンチマーク（コーディング能力）では88.4%という驚異的なスコアを記録 | 数学的推論を評価するMATHベンチマークでも77%を達成 | 86%",
+    "attributes": {
+      "product_name": "Llama 3.3",
+      "category": "LLM",
+      "subcategory": "Llamaシリーズ",
+      "version": "3.3",
+      "numeric_data": [
+        {
+          "target": "Llama 3.3",
+          "unit": [
+            "%",
+            "トークン"
+          ],
+          "context": [
+            "MMULベンチマークスコア",
+            "HumanEvalベンチマーク（コーディング能力）",
+            "MATHベンチマーク（数学的推論）",
+            "MMLUスコア",
+            "HumanEval（コーディング能力評価）",
+            "MATH-500（数学的推論能力評価）",
+            "コンテキストサイズ"
+          ],
+          "value": [
+            "86",
+            "88.4",
+            "77",
+            "128k"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Metaの最新モデルであるLlama 3.3は、MMUL（学部レベルの知識評価）ベンチマークで86%のスコアを記録し"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.3"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "HumanEvalベンチマーク（コーディング能力）では88.4%という驚異的なスコアを記録"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "数学的推論を評価するMATHベンチマークでも77%を達成"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "86%"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "HumanEval（コーディング能力評価）では、Llama 3.3が88.4%という驚異的なスコアを記録し"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "MATH-500（数学的推論能力評価）でも、Llama 3.3が77%で"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.3"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "128k"
+      }
+    ]
+  },
+  {
+    "id": "AIモデル",
+    "classes": [
+      "name"
+    ],
+    "summary": "オープンソースモデル | クローズドモデル | Gemini 1.5 Proは「すべての関連情報を一度に提供する」という、より直接的で効率的なアプローチを可能にしました | Claudeシリーズ | Claude 3 Haiku",
+    "attributes": {
+      "category": "AIモデル",
+      "subcategory": [
+        "オープンソースモデル",
+        "クローズドモデル",
+        "Opus（最高性能）、Sonnet（汎用性と速度のバランス）、Haiku（最速・最軽量）",
+        "大規模言語モデル"
+      ],
+      "product_name": [
+        "Gemini 1.5 Pro",
+        "Claudeシリーズ",
+        "Claude 3 Haiku",
+        "Llama 4 Scout",
+        "Llama 3.3",
+        "GPT-4",
+        "3",
+        "o4-mini",
+        "o3",
+        "Llama 4シリーズ"
+      ],
+      "model_name": [
+        "1.5 Pro",
+        "3 Haiku"
+      ],
+      "version": [
+        "1.5",
+        "3",
+        "4",
+        "3.3"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "オープンソースモデル"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "クローズドモデル"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1.5 Proは「すべての関連情報を一度に提供する」という、より直接的で効率的なアプローチを可能にしました"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claudeシリーズ"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Haiku"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 4 Scout"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.3"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1.5 Pro"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "3は、コーディングと数学のベンチマークでトップクラスの性能を誇り、技術系プロジェクトに優れています 。"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "o4-mini"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "o3"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 4シリーズ"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Haiku"
+      }
+    ]
+  },
+  {
+    "id": "GPT-4o",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "GPT-4o | 入力料金（1Mトークンあたり） $2.50 | 出力料金（1Mトークンあたり） $10.00 | Batch API利用時は$1.25 | Batch API利用時は$5.00",
+    "attributes": {
+      "model_name": "GPT-4o",
+      "category": "LLM",
+      "product_name": "GPT-4o",
+      "numeric_data": [
+        {
+          "target": "GPT-4o",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金",
+            "Batch API入力料金",
+            "Batch API出力料金"
+          ],
+          "value": [
+            "$2.50",
+            "$10.00",
+            "$1.25",
+            "$5.00"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $2.50"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $10.00"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Batch API利用時は$1.25"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Batch API利用時は$5.00"
+      }
+    ]
+  },
+  {
+    "id": "Gemini 1.",
+    "classes": [
+      "name"
+    ],
+    "summary": "Gemini 1.",
+    "attributes": {
+      "model_name": "Gemini 1.",
+      "category": "LLM"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1."
+      }
+    ]
+  },
+  {
+    "id": "5 Pro",
+    "classes": [
+      "name"
+    ],
+    "summary": "5 Pro",
+    "attributes": {
+      "model_name": "5 Pro",
+      "category": "LLM"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "5 Pro"
+      }
+    ]
+  },
+  {
+    "id": "GPT",
+    "classes": [
+      "name"
+    ],
+    "summary": "GPT-4o | GPT-5-Codex | GPT-4o mini | GPT-5 | GPT-4oシリーズ",
+    "attributes": {
+      "product_name": "GPT",
+      "model_name": [
+        "4o",
+        "5-Codex",
+        "4o mini",
+        "5",
+        "4oシリーズ"
+      ],
+      "category": "LLM",
+      "subcategory": [
+        "汎用モデル",
+        "ソフトウェア開発特化型",
+        "業務効率化向け"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-5-Codex"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o mini"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-5"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4oシリーズ"
+      }
+    ]
+  },
+  {
+    "id": "o3",
+    "classes": [
+      "name"
+    ],
+    "summary": "o3",
+    "attributes": {
+      "model_name": "o3",
+      "category": "LLM",
+      "subcategory": "推論特化型モデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "o3"
+      }
+    ]
+  },
+  {
+    "id": "o4-mini",
+    "classes": [
+      "name"
+    ],
+    "summary": "o4-mini",
+    "attributes": {
+      "model_name": "o4-mini",
+      "category": "LLM",
+      "subcategory": "推論特化型モデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "o4-mini"
+      }
+    ]
+  },
+  {
+    "id": "GPT-5 (SWE-bench)",
+    "classes": [
+      "numeric_value"
+    ],
+    "summary": "コーディング（SWE-benchで74.9%）",
+    "attributes": {
+      "numeric_data": [
+        {
+          "target": "GPT-5 (SWE-bench)",
+          "unit": "%",
+          "context": "コーディング性能",
+          "value": "74.9"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "コーディング（SWE-benchで74.9%）"
+      }
+    ]
+  },
+  {
+    "id": "GPT-5 (AIME)",
+    "classes": [
+      "numeric_value"
+    ],
+    "summary": "数学（AIME 2025で94.6%）",
+    "attributes": {
+      "numeric_data": [
+        {
+          "target": "GPT-5 (AIME)",
+          "year": "2025",
+          "unit": "%",
+          "context": "数学性能",
+          "value": "94.6"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "数学（AIME 2025で94.6%）"
+      }
+    ]
+  },
+  {
+    "id": "2.0 Flash",
+    "classes": [
+      "name"
+    ],
+    "summary": "Gemini 2.0 Flash",
+    "attributes": {
+      "product_name": "Gemini 2.0 Flash",
+      "model_name": "2.0 Flash",
+      "category": "AIモデル",
+      "version": "2.0"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 2.0 Flash"
+      }
+    ]
+  },
+  {
+    "id": "リアルタイムでの顧客対応、大規模なコンテンツモデレーション",
+    "classes": [
+      "needs"
+    ],
+    "summary": "この超高速・超低コストという特性は、リアルタイムでの顧客対応や大規模なコンテンツモデレーションなど、応答速度とコスト効率が最重要となるタスクに最適化されています",
+    "attributes": {
+      "application": "リアルタイムでの顧客対応、大規模なコンテンツモデレーション",
+      "needs": "応答速度とコスト効率が最重要",
+      "trends": "最適化"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "この超高速・超低コストという特性は、リアルタイムでの顧客対応や大規模なコンテンツモデレーションなど、応答速度とコスト効率が最重要となるタスクに最適化されています"
+      }
+    ]
+  },
+  {
+    "id": "Claude 3 Opus",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "最高性能のClaude 3 Opus | 入力100万トークンあたり15ドル | 出力100万トークンあたり75ドル | Claude 3 Opus | 入力料金（1Mトークンあたり） $15.00",
+    "attributes": {
+      "product_name": "Claude 3 Opus",
+      "category": "LLM",
+      "version": "3",
+      "numeric_data": [
+        {
+          "target": "Claude 3 Opus",
+          "unit": [
+            "ドル",
+            "$/1Mトークン"
+          ],
+          "context": [
+            "入力100万トークンあたり",
+            "出力100万トークンあたり",
+            "入力料金",
+            "出力料金"
+          ],
+          "value": [
+            "15",
+            "75",
+            "$15.00",
+            "$75.00"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "最高性能のClaude 3 Opus"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力100万トークンあたり15ドル"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力100万トークンあたり75ドル"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Opus"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $15.00"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $75.00"
+      }
+    ]
+  },
+  {
+    "id": "特定の市場セグメント",
+    "classes": [
+      "needs"
+    ],
+    "summary": "特定の市場セグメントのニーズに深く応えることで、競合との差別化を図っている",
+    "attributes": {
+      "application": "特定の市場セグメント",
+      "needs": "競合との差別化"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "特定の市場セグメントのニーズに深く応えることで、競合との差別化を図っている"
+      }
+    ]
+  },
+  {
+    "id": "Llamaシリーズ",
+    "classes": [
+      "name"
+    ],
+    "summary": "MetaのLlamaシリーズ",
+    "attributes": {
+      "product_name": "Llamaシリーズ",
+      "category": "LLM",
+      "subcategory": "オープンソースLLM"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "MetaのLlamaシリーズ"
+      }
+    ]
+  },
+  {
+    "id": "Scout",
+    "classes": [
+      "name"
+    ],
+    "summary": "Scout（軽量・高効率）",
+    "attributes": {
+      "product_name": "Scout",
+      "category": "LLM",
+      "subcategory": "Llama 4シリーズ"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Scout（軽量・高効率）"
+      }
+    ]
+  },
+  {
+    "id": "Maverick",
+    "classes": [
+      "name"
+    ],
+    "summary": "Maverick（多機能・万能型）",
+    "attributes": {
+      "product_name": "Maverick",
+      "category": "LLM",
+      "subcategory": "Llama 4シリーズ"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Maverick（多機能・万能型）"
+      }
+    ]
+  },
+  {
+    "id": "Behemoth",
+    "classes": [
+      "name"
+    ],
+    "summary": "Behemoth（最高峰、開発中）",
+    "attributes": {
+      "product_name": "Behemoth",
+      "category": "LLM",
+      "subcategory": "Llama 4シリーズ"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Behemoth（最高峰、開発中）"
+      }
+    ]
+  },
+  {
+    "id": "プライバシーを厳格に保護したい企業、独自のファインチューニングを前提とした開発プロジェクト",
+    "classes": [
+      "needs"
+    ],
+    "summary": "プライバシーを厳格に保護したい企業や、独自のファインチューニングを前提とした開発プロジェクトに最適です",
+    "attributes": {
+      "application": "プライバシーを厳格に保護したい企業、独自のファインチューニングを前提とした開発プロジェクト",
+      "needs": "プライバシー保護、独自のファインチューニング",
+      "trends": "最適"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "プライバシーを厳格に保護したい企業や、独自のファインチューニングを前提とした開発プロジェクトに最適です"
+      }
+    ]
+  },
+  {
+    "id": "Llama 4 Scout",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "1000万トークンのコンテキストウィンドウ | 1万〜2万トークンあたりで低下し始める | Llama 4 Scout | 1000万",
+    "attributes": {
+      "product_name": "Llama 4 Scout",
+      "category": "LLM",
+      "version": "4",
+      "numeric_data": [
+        {
+          "target": "Llama 4 Scout",
+          "unit": "トークン",
+          "context": [
+            "コンテキストウィンドウ",
+            "パフォーマンス低下",
+            "コンテキストサイズ"
+          ],
+          "value": [
+            "1000万",
+            "1万〜2万"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "1000万トークンのコンテキストウィンドウ"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "1万〜2万トークンあたりで低下し始める"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 4 Scout"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "1000万"
+      }
+    ]
+  },
+  {
+    "id": "MMLU",
+    "classes": [
+      "name"
+    ],
+    "summary": "MMLU",
+    "attributes": {
+      "product_name": "MMLU",
+      "category": "ベンチマーク",
+      "subcategory": "言語理解"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "MMLU"
+      }
+    ]
+  },
+  {
+    "id": "MT-Bench",
+    "classes": [
+      "name"
+    ],
+    "summary": "MT-Bench",
+    "attributes": {
+      "product_name": "MT-Bench",
+      "category": "ベンチマーク",
+      "subcategory": "言語モデル評価"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "MT-Bench"
+      }
+    ]
+  },
+  {
+    "id": "GPT-4o mini",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "GPT-4o mini | 入力料金（1Mトークンあたり） $0.15 | 出力料金（1Mトークンあたり） $0.60 | Batch API利用時は$0.075 | Batch API利用時は$0.30",
+    "attributes": {
+      "product_name": "GPT-4o mini",
+      "category": [
+        "LLM",
+        "AIモデル"
+      ],
+      "version": "4o mini",
+      "numeric_data": [
+        {
+          "target": "GPT-4o mini",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金",
+            "Batch API入力料金",
+            "Batch API出力料金"
+          ],
+          "value": [
+            "$0.15",
+            "$0.60",
+            "$0.075",
+            "$0.30"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o mini"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $0.15"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $0.60"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Batch API利用時は$0.075"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "Batch API利用時は$0.30"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o mini"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "GPT-4o mini"
+      }
+    ]
+  },
+  {
+    "id": "Gemini 2.5 Pro",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "Gemini 2.5 Pro | 入力料金（1Mトークンあたり） $1.25 | 出力料金（1Mトークンあたり） $2.50",
+    "attributes": {
+      "product_name": "Gemini 2.5 Pro",
+      "category": "LLM",
+      "version": "2.5",
+      "numeric_data": [
+        {
+          "target": "Gemini 2.5 Pro",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金"
+          ],
+          "value": [
+            "$1.25",
+            "$2.50"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 2.5 Pro"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $1.25"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $2.50"
+      }
+    ]
+  },
+  {
+    "id": "Claude 3 Sonnet",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "Claude 3 Sonnet | 入力料金（1Mトークンあたり） $3.00 | 出力料金（1Mトークンあたり） $15.00",
+    "attributes": {
+      "product_name": "Claude 3 Sonnet",
+      "category": [
+        "LLM",
+        "AIモデル"
+      ],
+      "version": "3",
+      "numeric_data": [
+        {
+          "target": "Claude 3 Sonnet",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金"
+          ],
+          "value": [
+            "$3.00",
+            "$15.00"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Sonnet"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $3.00"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $15.00"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Sonnet"
+      }
+    ]
+  },
+  {
+    "id": "Claude 3 Haiku",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "Claude 3 Haiku | 入力料金（1Mトークンあたり） $0.25 | 出力料金（1Mトークンあたり） $1.25",
+    "attributes": {
+      "product_name": "Claude 3 Haiku",
+      "category": "LLM",
+      "version": [
+        "3",
+        "3 Haiku"
+      ],
+      "numeric_data": [
+        {
+          "target": "Claude 3 Haiku",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金"
+          ],
+          "value": [
+            "$0.25",
+            "$1.25"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Haiku"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $0.25"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $1.25"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Claude 3 Haiku"
+      }
+    ]
+  },
+  {
+    "id": "Llama 3.1 8B",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "Llama 3.1 8B | 入力料金（1Mトークンあたり） $0.18 | 出力料金（1Mトークンあたり） $0.18",
+    "attributes": {
+      "product_name": "Llama 3.1 8B",
+      "category": "LLM",
+      "version": [
+        "3.1",
+        "3.1 8B"
+      ],
+      "numeric_data": [
+        {
+          "target": "Llama 3.1 8B",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金"
+          ],
+          "value": "$0.18"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.1 8B"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $0.18"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $0.18"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.1 8B"
+      }
+    ]
+  },
+  {
+    "id": "Llama 3.1 405B",
+    "classes": [
+      "numeric_value",
+      "name"
+    ],
+    "summary": "Llama 3.1 405B | 入力料金（1Mトークンあたり） $3.50 | 出力料金（1Mトークンあたり） $3.50",
+    "attributes": {
+      "product_name": "Llama 3.1 405B",
+      "category": "LLM",
+      "version": "3.1",
+      "numeric_data": [
+        {
+          "target": "Llama 3.1 405B",
+          "unit": "$/1Mトークン",
+          "context": [
+            "入力料金",
+            "出力料金"
+          ],
+          "value": "$3.50"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.1 405B"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "入力料金（1Mトークンあたり） $3.50"
+      },
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "出力料金（1Mトークンあたり） $3.50"
+      }
+    ]
+  },
+  {
+    "id": "企業向けAIアシスタント/チャットボット",
+    "classes": [
+      "needs"
+    ],
+    "summary": "企業向けAIアシスタント/チャットボット （顧客サポート、社内ナレッジ検索）",
+    "attributes": {
+      "application": "企業向けAIアシスタント/チャットボット",
+      "needs": "顧客サポート、社内ナレッジ検索"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "企業向けAIアシスタント/チャットボット （顧客サポート、社内ナレッジ検索）"
+      }
+    ]
+  },
+  {
+    "id": "Mistralシリーズ",
+    "classes": [
+      "name"
+    ],
+    "summary": "Mistralシリーズ",
+    "attributes": {
+      "product_name": "Mistralシリーズ",
+      "category": "AIモデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Mistralシリーズ"
+      },
+      {
+        "extraction_class": "name",
+        "extraction_text": "Mistralシリーズ"
+      }
+    ]
+  },
+  {
+    "id": "Cohere Command R",
+    "classes": [
+      "name"
+    ],
+    "summary": "Cohere Command R",
+    "attributes": {
+      "product_name": "Cohere Command R",
+      "category": "AIモデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Cohere Command R"
+      }
+    ]
+  },
+  {
+    "id": "エージェント・自動化ワークフロー",
+    "classes": [
+      "needs"
+    ],
+    "summary": "エージェント・自動化ワークフロー （複雑なタスクの自律的実行） | AIに複雑なタスクを自律的に実行させたい場合、GPT-5の「思考」モードと高い信頼性が大きな強みとなります 。ミッションクリティカルな業務や、多段階の複雑なプロセスを自動化する際には、GPT-5...",
+    "attributes": {
+      "application": "エージェント・自動化ワークフロー",
+      "needs": [
+        "複雑なタスクの自律的実行",
+        "AIに複雑なタスクを自律的に実行させたい"
+      ],
+      "trends": "GPT-5の「思考」モードと高い信頼性が大きな強みとなります。ミッションクリティカルな業務や、多段階の複雑なプロセスを自動化する際には、GPT-5やo3のような推論に特化したモデルが適しています。"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "エージェント・自動化ワークフロー （複雑なタスクの自律的実行）"
+      },
+      {
+        "extraction_class": "needs",
+        "extraction_text": "AIに複雑なタスクを自律的に実行させたい場合、GPT-5の「思考」モードと高い信頼性が大きな強みとなります 。ミッションクリティカルな業務や、多段階の複雑なプロセスを自動化する際には、GPT-5やo3のような推論に特化したモデルが適しています。"
+      }
+    ]
+  },
+  {
+    "id": "オンプレミス/カスタマイズ重視",
+    "classes": [
+      "needs"
+    ],
+    "summary": "オンプレミス/カスタマイズ重視 （プライバシー保護、ファインチューニング）",
+    "attributes": {
+      "application": "オンプレミス/カスタマイズ重視",
+      "needs": "プライバシー保護、ファインチューニング"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "オンプレミス/カスタマイズ重視 （プライバシー保護、ファインチューニング）"
+      }
+    ]
+  },
+  {
+    "id": "一般利用",
+    "classes": [
+      "needs"
+    ],
+    "summary": "コスト効率重視の一般利用: 予算が限られている場合や、大規模なユーザーにサービスを提供する場合",
+    "attributes": {
+      "application": "一般利用",
+      "needs": "コスト効率重視"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "コスト効率重視の一般利用: 予算が限られている場合や、大規模なユーザーにサービスを提供する場合"
+      }
+    ]
+  },
+  {
+    "id": "Llama 3.1",
+    "classes": [
+      "name"
+    ],
+    "summary": "Llama 3.1 8B Instruct-Turbo",
+    "attributes": {
+      "product_name": "Llama 3.1",
+      "model_name": "8B Instruct-Turbo",
+      "category": "AIモデル",
+      "version": "3.1"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3.1 8B Instruct-Turbo"
+      }
+    ]
+  },
+  {
+    "id": "研究開発・分析",
+    "classes": [
+      "needs"
+    ],
+    "summary": "高度な研究開発・分析: 複雑なデータや文書を扱う研究開発や法務・コンサルティング業務",
+    "attributes": {
+      "application": "研究開発・分析",
+      "needs": "複雑なデータや文書を扱う"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "高度な研究開発・分析: 複雑なデータや文書を扱う研究開発や法務・コンサルティング業務"
+      }
+    ]
+  },
+  {
+    "id": "Pro",
+    "classes": [
+      "name"
+    ],
+    "summary": "Gemini 1.5 Pro",
+    "attributes": {
+      "product_name": "Gemini",
+      "model_name": "Pro",
+      "category": "AIモデル",
+      "version": "1.5"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Gemini 1.5 Pro"
+      }
+    ]
+  },
+  {
+    "id": "Llama 3",
+    "classes": [
+      "name"
+    ],
+    "summary": "Llama 3",
+    "attributes": {
+      "product_name": "Llama 3",
+      "category": "AIモデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "name",
+        "extraction_text": "Llama 3"
+      }
+    ]
+  },
+  {
+    "id": "オンプレミス・カスタマイズ重視",
+    "classes": [
+      "needs"
+    ],
+    "summary": "企業の機密データ保護や、特定の業界・業務に特化したAIを構築する際には、Llama 4やMistralのオープンソースモデルが不可欠です。これらのモデルは自社サーバーでの運用が可能であり、ファイ...",
+    "attributes": {
+      "application": "オンプレミス・カスタマイズ重視",
+      "needs": "企業の機密データ保護や、特定の業界・業務に特化したAIを構築する",
+      "trends": "Llama 4やMistralのオープンソースモデルが不可欠。自社サーバーでの運用が可能であり、ファインチューニングにより、プロプライエタリモデルでは実現できないレベルのカスタマイズ性を享受できます。"
+    },
+    "sources": [
+      {
+        "extraction_class": "needs",
+        "extraction_text": "企業の機密データ保護や、特定の業界・業務に特化したAIを構築する際には、Llama 4やMistralのオープンソースモデルが不可欠です。これらのモデルは自社サーバーでの運用が可能であり、ファインチューニングにより、プロプライエタリモデルでは実現できないレベルのカスタマイズ性を享受できます 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "2024年から2025年にかけての大規模言語モデル（LLM）市場は、目覚ましい技術革新と戦略的な市場の再編を経験しています。",
+    "attributes": {
+      "factor_type": "market trend",
+      "factors": [
+        "目覚ましい技術革新",
+        "戦略的な市場の再編"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "2024年から2025年にかけての大規模言語モデル（LLM）市場は、目覚ましい技術革新と戦略的な市場の再編を経験しています。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "プロプライエタリモデル（クローズドモデル）とオープンソースモデルの二極化が顕著に進んでいます。",
+    "attributes": {
+      "factor_type": "market trend",
+      "factors": [
+        "プロプライエタリモデル（クローズドモデル）とオープンソースモデルの二極化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "プロプライエタリモデル（クローズドモデル）とオープンソースモデルの二極化が顕著に進んでいます。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "かつて性能面で圧倒的な優位性を持っていたクローズドモデル陣営に対し、MetaのLlama 4シリーズに代表されるオープンソースモデルが、特定の技術ベンチマークで匹敵、あるいは凌駕する性能を発揮し...",
+    "attributes": {
+      "factor_type": "market trend",
+      "factors": [
+        "オープンソースモデルが特定の技術ベンチマークで匹敵、あるいは凌駕する性能を発揮"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "かつて性能面で圧倒的な優位性を持っていたクローズドモデル陣営に対し、MetaのLlama 4シリーズに代表されるオープンソースモデルが、特定の技術ベンチマークで匹敵、あるいは凌駕する性能を発揮し始めています。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "これにより、ユーザーは最高峰の性能を追求するか、あるいはカスタマイズ性とコスト効率を重視するかという、より戦略的な選択を迫られるようになりました。",
+    "attributes": {
+      "factor_type": "market trend",
+      "factors": [
+        "ユーザーは最高峰の性能を追求するか、あるいはカスタマイズ性とコスト効率を重視するかという、より戦略的な選択を迫られる"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "これにより、ユーザーは最高峰の性能を追求するか、あるいはカスタマイズ性とコスト効率を重視するかという、より戦略的な選択を迫られるようになりました。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "幻覚やエラー率を大幅に削減した「信頼性と安全性」を最重視したモデルであり",
+    "attributes": {
+      "core_features": [
+        "幻覚やエラー率を大幅に削減",
+        "信頼性と安全性"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "幻覚やエラー率を大幅に削減した「信頼性と安全性」を最重視したモデルであり"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "最大200万トークンという業界をリードするコンテキストウィンドウを武器に",
+    "attributes": {
+      "core_features": [
+        "業界をリードするコンテキストウィンドウ"
+      ],
+      "performance": "最大200万トークン"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "最大200万トークンという業界をリードするコンテキストウィンドウを武器に"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "特に長文の分析や倫理的な回答能力に優れ",
+    "attributes": {
+      "core_features": [
+        "長文の分析",
+        "倫理的な回答能力"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "特に長文の分析や倫理的な回答能力に優れ"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "特定の技術ベンチマークで匹敵、あるいは凌駕する性能を発揮し始めています",
+    "attributes": {
+      "performance": "特定の技術ベンチマークで匹敵、あるいは凌駕する性能"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "特定の技術ベンチマークで匹敵、あるいは凌駕する性能を発揮し始めています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "MoE（Mixture-of-Experts）アーキテクチャの採用により、オープンソースモデルの性能限界を押し上げ、特にコーディングや数学的推論といった技術分野で高いスコアを記録しています",
+    "attributes": {
+      "core_features": [
+        "MoE（Mixture-of-Experts）アーキテクチャの採用"
+      ],
+      "performance": "オープンソースモデルの性能限界を押し上げ、特にコーディングや数学的推論といった技術分野で高いスコアを記録"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "MoE（Mixture-of-Experts）アーキテクチャの採用により、オープンソースモデルの性能限界を押し上げ、特にコーディングや数学的推論といった技術分野で高いスコアを記録しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "軽量かつ高速な設計により、リソース効率とコスト効率を重視するユーザーに強く訴求しています",
+    "attributes": {
+      "core_features": [
+        "軽量かつ高速な設計"
+      ],
+      "performance": "リソース効率とコスト効率を重視"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "軽量かつ高速な設計により、リソース効率とコスト効率を重視するユーザーに強く訴求しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "OpenAI、Google、Anthropicといった企業が主導するプロプライエタリモデルは、その開発の初期段階から、膨大な計算資源と独自の高品質な学習データセットを強みとしてきました 。これら...",
+    "attributes": {
+      "core_features": [
+        "膨大な計算資源",
+        "独自の高品質な学習データセット",
+        "最高峰の性能",
+        "厳格な品質管理",
+        "セキュリティ",
+        "知的財産保護"
+      ],
+      "performance": "最高峰の性能"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "OpenAI、Google、Anthropicといった企業が主導するプロプライエタリモデルは、その開発の初期段階から、膨大な計算資源と独自の高品質な学習データセットを強みとしてきました 。これらのモデルは、一般的に最高峰の性能と、厳格な品質管理、そしてセキュリティや知的財産保護といった側面で優位性を確立してきました。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "特に、GPT-5は医療・法律分野での信頼性と安全性を強調しており、機密データを扱うエンタープライズ市場を主なターゲットとしています 。",
+    "attributes": {
+      "core_features": [
+        "医療・法律分野での信頼性",
+        "安全性",
+        "機密データを扱うエンタープライズ市場を主なターゲット"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "特に、GPT-5は医療・法律分野での信頼性と安全性を強調しており、機密データを扱うエンタープライズ市場を主なターゲットとしています 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "MetaやMistralが牽引するオープンソースモデルは、モデルの重み（weights）を公開することで、世界中の開発者や研究者がモデルをダウンロードし、利用、改良、開発することを可能にしていま...",
+    "attributes": {
+      "core_features": [
+        "モデルの重み公開",
+        "開発者によるダウンロード・利用・改良・開発が可能",
+        "開発者コミュニティによるイノベーション促進",
+        "モデルの応用範囲拡大"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "MetaやMistralが牽引するオープンソースモデルは、モデルの重み（weights）を公開することで、世界中の開発者や研究者がモデルをダウンロードし、利用、改良、開発することを可能にしています 。この戦略は、開発者コミュニティの力を活用することで、急速なイノベーションを促し、モデルの応用範囲を広げることに貢献しています。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Llama 4シリーズは、オンプレミス環境での運用や、特定のユースケースに合わせたカスタマイズを可能にし、プライバシー保護を重視する企業や、API利用コストを抑えたい開発者にとって魅力的な選択肢...",
+    "attributes": {
+      "core_features": [
+        "オンプレミス環境での運用",
+        "特定のユースケースに合わせたカスタマイズ",
+        "プライバシー保護重視",
+        "API利用コスト抑制"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Llama 4シリーズは、オンプレミス環境での運用や、特定のユースケースに合わせたカスタマイズを可能にし、プライバシー保護を重視する企業や、API利用コストを抑えたい開発者にとって魅力的な選択肢となっています 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "HumanEval（コーディング能力）やMATH（数学的推論）といった特定の技術分野では、Llama 3.3がGPT-4やGemini 1.",
+    "attributes": {
+      "core_features": [
+        "HumanEval（コーディング能力）",
+        "MATH（数学的推論）"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "HumanEval（コーディング能力）やMATH（数学的推論）といった特定の技術分野では、Llama 3.3がGPT-4やGemini 1."
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "5 Proを上回る結果を出しており",
+    "attributes": {
+      "performance": "5 Proを上回る結果"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "5 Proを上回る結果を出しており"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "オープンソースモデルがクローズドモデルに匹敵、あるいは特定の分野では凌駕する性能に到達したことが証明されました。",
+    "attributes": {
+      "core_features": [
+        "クローズドモデルに匹敵する性能",
+        "特定の分野で凌駕する性能"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "オープンソースモデルがクローズドモデルに匹敵、あるいは特定の分野では凌駕する性能に到達したことが証明されました。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "最高性能と信頼性を持つブラックボックス",
+    "attributes": {
+      "core_features": [
+        "最高性能",
+        "信頼性"
+      ],
+      "performance": "最高性能"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "最高性能と信頼性を持つブラックボックス"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "コスト効率が高く、徹底的にカスタマイズ可能な透明なモデル",
+    "attributes": {
+      "core_features": [
+        "コスト効率が高い",
+        "徹底的にカスタマイズ可能",
+        "透明性"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "コスト効率が高く、徹底的にカスタマイズ可能な透明なモデル"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "ファインチューニングやRAG（Retrieval-Augmented Generation）といった技術との組み合わせにより、特定のユースケースにおける実用性を大幅に高めています",
+    "attributes": {
+      "core_features": [
+        "ファインチューニング",
+        "RAG（Retrieval-Augmented Generation）"
+      ],
+      "performance": "特定のユースケースにおける実用性を大幅に高める"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "ファインチューニングやRAG（Retrieval-Augmented Generation）といった技術との組み合わせにより、特定のユースケースにおける実用性を大幅に高めています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "企業は、公開されたモデルを自社の独自データで追加学習させることで、プロプライエタリAPIに依存することなく、特定の業務に特化した高性能AIを構築可能になり、コストとプライバシーリスクを回避する戦...",
+    "attributes": {
+      "core_features": [
+        "独自データでの追加学習",
+        "プロプライエタリAPI非依存",
+        "特定の業務に特化した高性能AI構築",
+        "コスト回避",
+        "プライバシーリスク回避"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "企業は、公開されたモデルを自社の独自データで追加学習させることで、プロプライエタリAPIに依存することなく、特定の業務に特化した高性能AIを構築可能になり、コストとプライバシーリスクを回避する戦略的アプローチが可能となりました。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "LLMの進化は、単なる性能向上だけでなく、モデルの役割の分化も引き起こしています。",
+    "attributes": {
+      "core_features": [
+        "モデルの役割の分化"
+      ],
+      "performance": "性能向上"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "LLMの進化は、単なる性能向上だけでなく、モデルの役割の分化も引き起こしています。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "テキスト、画像、音声、動画をシームレスに処理する「ネイティブマルチモーダル」として設計されています",
+    "attributes": {
+      "core_features": [
+        "ネイティブマルチモーダル処理"
+      ],
+      "performance": "テキスト、画像、音声、動画をシームレスに処理"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "テキスト、画像、音声、動画をシームレスに処理する「ネイティブマルチモーダル」として設計されています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "より複雑なユースケース、例えば画像や動画を伴う質問応答や、音声によるリアルタイム対話といったタスクを自然にこなすことを可能にします。",
+    "attributes": {
+      "core_features": [
+        "画像や動画を伴う質問応答",
+        "音声によるリアルタイム対話"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "より複雑なユースケース、例えば画像や動画を伴う質問応答や、音声によるリアルタイム対話といったタスクを自然にこなすことを可能にします。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "複雑な推論に特化",
+    "attributes": {
+      "core_features": [
+        "複雑な推論"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "複雑な推論に特化"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Web検索やコード実行といった外部ツールを自動で組み合わせて、より高度な推論を行うための「エージェント的な訓練」を受けている",
+    "attributes": {
+      "core_features": [
+        "Web検索やコード実行といった外部ツールを自動で組み合わせ",
+        "エージェント的な訓練"
+      ],
+      "performance": "より高度な推論を行う"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Web検索やコード実行といった外部ツールを自動で組み合わせて、より高度な推論を行うための「エージェント的な訓練」を受けている"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "現実世界のソフトウェア開発タスクに特化した",
+    "attributes": {
+      "core_features": [
+        "現実世界のソフトウェア開発タスクに特化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "現実世界のソフトウェア開発タスクに特化した"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "AIが自律的にタスクを計画・実行する「エージェント型」へと進化している",
+    "attributes": {
+      "core_features": [
+        "自律的なタスク計画・実行"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "AIが自律的にタスクを計画・実行する「エージェント型」へと進化している"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "高速かつ安価なモデル",
+    "attributes": {
+      "performance": "高速かつ安価"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "高速かつ安価なモデル"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "従来のモデルを大幅に上回る性能を持つ",
+    "attributes": {
+      "performance": "従来のモデルを大幅に上回る性能"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "従来のモデルを大幅に上回る性能を持つ"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "信頼性と安全性が飛躍的に向上しており、幻覚（hallucination）とエラー率が大幅に低下している",
+    "attributes": {
+      "core_features": [
+        "信頼性と安全性が飛躍的に向上",
+        "幻覚（hallucination）とエラー率が大幅に低下"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "信頼性と安全性が飛躍的に向上しており、幻覚（hallucination）とエラー率が大幅に低下している"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "コーディング（SWE-benchで74.9%）",
+    "attributes": {
+      "core_features": [
+        "コーディング"
+      ],
+      "performance": "SWE-benchで74.9%"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "コーディング（SWE-benchで74.9%）"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "数学（AIME 2025で94.6%）",
+    "attributes": {
+      "core_features": [
+        "数学"
+      ],
+      "performance": "AIME 2025で94.6%"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "数学（AIME 2025で94.6%）"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "GPT-5は「思考（Reasoning）モード」を搭載しており、複雑な問題に対して段階的な思考プロセスを経て回答を生成することで、精度の向上を図っています",
+    "attributes": {
+      "core_features": [
+        "思考（Reasoning）モード"
+      ],
+      "performance": "複雑な問題に対して段階的な思考プロセスを経て回答を生成することで、精度の向上"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "GPT-5は「思考（Reasoning）モード」を搭載しており、複雑な問題に対して段階的な思考プロセスを経て回答を生成することで、精度の向上を図っています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力トークン100万あたり1.25ドル",
+    "attributes": {
+      "base_price": "1.25ドル",
+      "price_type": "per 1M input tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力トークン100万あたり1.25ドル"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "出力トークン100万あたり10ドルと設定されています",
+    "attributes": {
+      "base_price": "10ドル",
+      "price_type": "per 1M output tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "出力トークン100万あたり10ドルと設定されています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "summary": "コンテキストサイズは400kトークンの入力と128kトークンの出力に対応",
+    "attributes": {
+      "technical_specs": "入力コンテキストサイズ: 400kトークン, 出力コンテキストサイズ: 128kトークン"
+    },
+    "sources": [
+      {
+        "extraction_class": "specifications",
+        "extraction_text": "コンテキストサイズは400kトークンの入力と128kトークンの出力に対応"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "GPT-4oは「Omni（全方位的）」という名の通り、テキスト、画像、音声のシモーダルな処理能力に長けた汎用モデルであり、日常的な文章作成、多言語対応、会議要約などに強みを持っています",
+    "attributes": {
+      "core_features": [
+        "テキスト処理",
+        "画像処理",
+        "音声処理",
+        "日常的な文章作成",
+        "多言語対応",
+        "会議要約"
+      ],
+      "performance": "シモーダルな処理能力に長けた汎用モデル"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "GPT-4oは「Omni（全方位的）」という名の通り、テキスト、画像、音声のシモーダルな処理能力に長けた汎用モデルであり、日常的な文章作成、多言語対応、会議要約などに強みを持っています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "o3、o4-miniといったモデルは、より深い推論能力に特化しており、複雑な数式やプログラミング、論理的分析といったタスクで真価を発揮します",
+    "attributes": {
+      "core_features": [
+        "深い推論能力",
+        "複雑な数式処理",
+        "プログラミング",
+        "論理的分析"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "o3、o4-miniといったモデルは、より深い推論能力に特化しており、複雑な数式やプログラミング、論理的分析といったタスクで真価を発揮します"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "summary": "最新のGemini 1.5 Proは、最大200万トークンという驚異的なコンテキストウィンドウを誇り",
+    "attributes": {
+      "technical_specs": "最大200万トークンのコンテキストウィンドウ"
+    },
+    "sources": [
+      {
+        "extraction_class": "specifications",
+        "extraction_text": "最新のGemini 1.5 Proは、最大200万トークンという驚異的なコンテキストウィンドウを誇り"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "summary": "この容量は、約1500ページ分のテキスト、または30,000行のコードに相当し",
+    "attributes": {
+      "technical_specs": "約1500ページ分のテキスト、または30,000行のコードに相当"
+    },
+    "sources": [
+      {
+        "extraction_class": "specifications",
+        "extraction_text": "この容量は、約1500ページ分のテキスト、または30,000行のコードに相当し"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "API料金は、プレビュー版で入力トークン100万あたり1.25ドル、出力トークン100万あたり5ドルと設定されています 。しかし、プロンプト長が20万トークンを超える場合は、より高レートが適用さ...",
+    "attributes": {
+      "base_price": "入力トークン100万あたり1.25ドル、出力トークン100万あたり5ドル",
+      "additional_fees": "プロンプト長が20万トークンを超える場合は、より高レートが適用される料金体系",
+      "price_type": "usage-based"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "API料金は、プレビュー版で入力トークン100万あたり1.25ドル、出力トークン100万あたり5ドルと設定されています 。しかし、プロンプト長が20万トークンを超える場合は、より高レートが適用される料金体系となっています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "5 Proの得意分野は、この超長文処理能力を活かしたものです。例えば、単一パスでの長文要約 、大規模なコードベースの全体的な分析とデバッグ 、複数の研究論文を横断しての洞察抽出、数時間分の音声文...",
+    "attributes": {
+      "core_features": [
+        "超長文処理能力",
+        "単一パスでの長文要約",
+        "大規模なコードベースの全体的な分析とデバッグ",
+        "複数の研究論文を横断しての洞察抽出",
+        "数時間分の音声文字起こしからのコンテンツ化",
+        "すべての関連情報を一度に提供する"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "5 Proの得意分野は、この超長文処理能力を活かしたものです。例えば、単一パスでの長文要約 、大規模なコードベースの全体的な分析とデバッグ 、複数の研究論文を横断しての洞察抽出、数時間分の音声文字起こしからのコンテンツ化などが挙げられます 。従来のLLMでは、長文を処理するためにRAGやスライディングウィンドウといった複雑な技術を組み合わせる必要がありましたが、Gemini 1.5 Proは「すべての関連情報を一度に提供する」という、より直接的で効率的なアプローチを可能にしました 。これにより、開発者は複雑なオーケストレーションを組む手間が省け、開発プロセスが簡素化されます。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Googleは、高速処理に特化した軽量版の Gemini 2.0 Flashも提供しており、リアルタイムの応答が求められるチャットボットや音声アシスタントといったアプリケーションに最適化されています",
+    "attributes": {
+      "core_features": [
+        "高速処理に特化",
+        "リアルタイムの応答が求められるチャットボットや音声アシスタントといったアプリケーションに最適化"
+      ],
+      "performance": "高速処理"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Googleは、高速処理に特化した軽量版の Gemini 2.0 Flashも提供しており、リアルタイムの応答が求められるチャットボットや音声アシスタントといったアプリケーションに最適化されています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Claudeモデルの最大の強みは、その長文分析能力と、倫理・コンプライアンスを重視した回答の生成能力です 。特に、長大な契約書の分析、法務文書のチェック、そして複雑なタスクの計画と実行といった分...",
+    "attributes": {
+      "core_features": [
+        "長文分析能力",
+        "倫理・コンプライアンスを重視した回答の生成能力",
+        "長大な契約書の分析",
+        "法務文書のチェック",
+        "複雑なタスクの計画と実行"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Claudeモデルの最大の強みは、その長文分析能力と、倫理・コンプライアンスを重視した回答の生成能力です 。特に、長大な契約書の分析、法務文書のチェック、そして複雑なタスクの計画と実行といった分野で真価を発揮します"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "Claude 3 Haikuが際立っています。そのAPI料金は、入力トークン100万あたり0.25ドル、出力トークン100万あたり1.",
+    "attributes": {
+      "base_price": "入力トークン100万あたり0.25ドル、出力トークン100万あたり1.",
+      "price_type": "usage-based"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "Claude 3 Haikuが際立っています。そのAPI料金は、入力トークン100万あたり0.25ドル、出力トークン100万あたり1."
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "summary": "25ドルと、市場で最も安価な部類に入ります",
+    "attributes": {
+      "numeric_data": [
+        {
+          "unit": "ドル",
+          "context": "市場で最も安価な部類",
+          "value": "25"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "numeric_value",
+        "extraction_text": "25ドルと、市場で最も安価な部類に入ります"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "この超高速・超低コストという特性は、リアルタイムでの顧客対応や大規模なコンテンツモデレーションなど、応答速度とコスト効率が最重要となるタスクに最適化されています",
+    "attributes": {
+      "core_features": [
+        "超高速",
+        "超低コスト"
+      ],
+      "performance": "超高速"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "この超高速・超低コストという特性は、リアルタイムでの顧客対応や大規模なコンテンツモデレーションなど、応答速度とコスト効率が最重要となるタスクに最適化されています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力100万トークンあたり15ドル、出力100万トークンあたり75ドル",
+    "attributes": {
+      "base_price": "入力100万トークンあたり15ドル",
+      "additional_fees": "出力100万トークンあたり75ドル",
+      "price_type": "per token"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力100万トークンあたり15ドル、出力100万トークンあたり75ドル"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "長文処理や倫理的な回答といった独自の強みを活かし",
+    "attributes": {
+      "core_features": [
+        "長文処理",
+        "倫理的な回答"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "長文処理や倫理的な回答といった独自の強みを活かし"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Scout（軽量・高効率）",
+    "attributes": {
+      "core_features": [
+        "軽量",
+        "高効率"
+      ],
+      "performance": "高効率"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Scout（軽量・高効率）"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Maverick（多機能・万能型）",
+    "attributes": {
+      "core_features": [
+        "多機能",
+        "万能型"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Maverick（多機能・万能型）"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Behemoth（最高峰、開発中）",
+    "attributes": {
+      "core_features": [
+        "最高峰"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Behemoth（最高峰、開発中）"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "MoE（Mixture-of-Experts）アーキテクチャを採用しており、計算効率を高めつつも高性能を実現しています",
+    "attributes": {
+      "core_features": [
+        "MoEアーキテクチャ採用",
+        "高性能"
+      ],
+      "performance": "計算効率が高い"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "MoE（Mixture-of-Experts）アーキテクチャを採用しており、計算効率を高めつつも高性能を実現しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "summary": "MoE（Mixture-of-Experts）アーキテクチャを採用しており",
+    "attributes": {
+      "technical_specs": "MoE（Mixture-of-Experts）アーキテクチャ"
+    },
+    "sources": [
+      {
+        "extraction_class": "specifications",
+        "extraction_text": "MoE（Mixture-of-Experts）アーキテクチャを採用しており"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "オープンソースであることによる高いカスタマイズ性と、オンプレミス環境での運用が可能であること",
+    "attributes": {
+      "core_features": [
+        "オープンソース",
+        "高いカスタマイズ性",
+        "オンプレミス環境での運用が可能"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "オープンソースであることによる高いカスタマイズ性と、オンプレミス環境での運用が可能であること"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "HumanEvalベンチマーク（コーディング能力）では88.4%という驚異的なスコアを記録",
+    "attributes": {
+      "performance": "HumanEvalベンチマークで88.4% (コーディング能力)"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "HumanEvalベンチマーク（コーディング能力）では88.4%という驚異的なスコアを記録"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "数学的推論を評価するMATHベンチマークでも77%を達成",
+    "attributes": {
+      "performance": "MATHベンチマークで77% (数学的推論)"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "数学的推論を評価するMATHベンチマークでも77%を達成"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "業界最長となる1000万トークンのコンテキストウィンドウを謳っています",
+    "attributes": {
+      "core_features": [
+        "1000万トークンのコンテキストウィンドウ"
+      ],
+      "performance": "業界最長"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "業界最長となる1000万トークンのコンテキストウィンドウを謳っています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "summary": "1000万トークンのコンテキストウィンドウ",
+    "attributes": {
+      "technical_specs": "コンテキストウィンドウ: 1000万トークン"
+    },
+    "sources": [
+      {
+        "extraction_class": "specifications",
+        "extraction_text": "1000万トークンのコンテキストウィンドウ"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "実際のパフォーマンスは1万〜2万トークンあたりで低下し始めるとの報告も上がっています",
+    "attributes": {
+      "performance": "1万〜2万トークンあたりで低下し始める"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "実際のパフォーマンスは1万〜2万トークンあたりで低下し始めるとの報告も上がっています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "summary": "実際のパフォーマンスは1万〜2万トークンあたりで低下し始めるとの報告も上がっています",
+    "attributes": {
+      "technical_specs": "パフォーマンス低下開始点: 1万〜2万トークン"
+    },
+    "sources": [
+      {
+        "extraction_class": "specifications",
+        "extraction_text": "実際のパフォーマンスは1万〜2万トークンあたりで低下し始めるとの報告も上がっています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "MMLU（Massive Multitask Language Understanding）は、学部レベルの知識や常識を評価するベンチマークであり",
+    "attributes": {
+      "core_features": [
+        "学部レベルの知識や常識を評価"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "MMLU（Massive Multitask Language Understanding）は、学部レベルの知識や常識を評価するベンチマークであり"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $1.25 出力料金（1Mトークンあたり） $10.00",
+    "attributes": {
+      "base_price": "$1.25",
+      "additional_fees": "$10.00",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $1.25 出力料金（1Mトークンあたり） $10.00"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $2.50 出力料金（1Mトークンあたり） $10.00 Batch API利用時は$1.25/$5.00",
+    "attributes": {
+      "base_price": "$2.50",
+      "additional_fees": "$10.00 (出力), Batch API利用時は入力$1.25/出力$5.00",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $2.50 出力料金（1Mトークンあたり） $10.00 Batch API利用時は$1.25/$5.00"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $0.15 出力料金（1Mトークンあたり） $0.60 Batch API利用時は$0.075/$0.30",
+    "attributes": {
+      "base_price": "$0.15",
+      "additional_fees": "$0.60 (出力), Batch API利用時は入力$0.075/出力$0.30",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $0.15 出力料金（1Mトークンあたり） $0.60 Batch API利用時は$0.075/$0.30"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $1.25 出力料金（1Mトークンあたり） $2.50 プレビュー版料金",
+    "attributes": {
+      "base_price": "$1.25",
+      "additional_fees": "$2.50",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $1.25 出力料金（1Mトークンあたり） $2.50 プレビュー版料金"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $1.25〜$2.50 出力料金（1Mトークンあたり） $5.00〜$10.00 長文プロンプトで高レート適用",
+    "attributes": {
+      "base_price": "$1.25〜$2.50",
+      "additional_fees": "$5.00〜$10.00",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $1.25〜$2.50 出力料金（1Mトークンあたり） $5.00〜$10.00 長文プロンプトで高レート適用"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $15.00 出力料金（1Mトークンあたり） $75.00 最高価格帯",
+    "attributes": {
+      "base_price": "$15.00",
+      "additional_fees": "$75.00",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $15.00 出力料金（1Mトークンあたり） $75.00 最高価格帯"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $3.00 出力料金（1Mトークンあたり） $15.00",
+    "attributes": {
+      "base_price": "$3.00",
+      "additional_fees": "$15.00",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $3.00 出力料金（1Mトークンあたり） $15.00"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $0.25 出力料金（1Mトークンあたり） $1.25 最安価格帯",
+    "attributes": {
+      "base_price": "$0.25",
+      "additional_fees": "$1.25",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $0.25 出力料金（1Mトークンあたり） $1.25 最安価格帯"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $0.18 出力料金（1Mトークンあたり） $0.18 Together AIプラットフォーム料金",
+    "attributes": {
+      "base_price": "$0.18",
+      "additional_fees": "$0.18",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $0.18 出力料金（1Mトークンあたり） $0.18 Together AIプラットフォーム料金"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "入力料金（1Mトークンあたり） $3.50 出力料金（1Mトークンあたり） $3.50 Together AIプラットフォーム料金",
+    "attributes": {
+      "base_price": "$3.50",
+      "additional_fees": "$3.50",
+      "price_type": "per 1M tokens"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "入力料金（1Mトークンあたり） $3.50 出力料金（1Mトークンあたり） $3.50 Together AIプラットフォーム料金"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Gemini 1.5 Proの200万トークンは、競合モデルを大きく引き離す実用的な強みとして、超長文の要約や複雑なコード分析といったユースケースを現実のものにしています 。",
+    "attributes": {
+      "core_features": [
+        "超長文の要約",
+        "複雑なコード分析"
+      ],
+      "performance": "200万トークン"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Gemini 1.5 Proの200万トークンは、競合モデルを大きく引き離す実用的な強みとして、超長文の要約や複雑なコード分析といったユースケースを現実のものにしています 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Llama 4 Scoutは、1000万トークンという業界最長の数字を誇っていますが 、実際のユーザーレビューでは、パフォーマンスが1万〜2万トークンあたりで低下し始めるとの報告も上がっています 。",
+    "attributes": {
+      "performance": "パフォーマンスが1万〜2万トークンあたりで低下し始める"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Llama 4 Scoutは、1000万トークンという業界最長の数字を誇っていますが 、実際のユーザーレビューでは、パフォーマンスが1万〜2万トークンあたりで低下し始めるとの報告も上がっています 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "コンテキストサイズを拡大すると、処理に要する時間とレイテンシーが増加する傾向にあります 。",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "処理に要する時間とレイテンシーが増加する"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "コンテキストサイズを拡大すると、処理に要する時間とレイテンシーが増加する傾向にあります 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "API料金が極めて低く、高速であるため、日常的な大量のタスクをコスト効率良く処理するのに最適です 。",
+    "attributes": {
+      "factor_type": "選定理由",
+      "factors": [
+        "API料金が極めて低い",
+        "高速",
+        "日常的な大量のタスクをコスト効率良く処理するのに最適"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "API料金が極めて低く、高速であるため、日常的な大量のタスクをコスト効率良く処理するのに最適です 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "Gemini 1.5 Proの200万トークンという超長文処理能力は、複数の文書を一度に分析するタスクに最適です 。",
+    "attributes": {
+      "factor_type": "選定理由",
+      "factors": [
+        "200万トークンという超長文処理能力",
+        "複数の文書を一度に分析するタスクに最適"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "Gemini 1.5 Proの200万トークンという超長文処理能力は、複数の文書を一度に分析するタスクに最適です 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "3は、コーディングと数学のベンチマークでトップクラスの性能を誇り、技術系プロジェクトに優れています",
+    "attributes": {
+      "core_features": [
+        "コーディングと数学のベンチマークでトップクラスの性能",
+        "技術系プロジェクトに優れている"
+      ],
+      "performance": "トップクラスの性能"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "3は、コーディングと数学のベンチマークでトップクラスの性能を誇り、技術系プロジェクトに優れています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Claudeは長文分析に強く、倫理的な回答が求められるタスクに適しています",
+    "attributes": {
+      "core_features": [
+        "長文分析に強い",
+        "倫理的な回答が求められるタスクに適している"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Claudeは長文分析に強く、倫理的な回答が求められるタスクに適しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Mistralは軽量で高速、高いコスト効率を提供します",
+    "attributes": {
+      "core_features": [
+        "軽量",
+        "高速",
+        "高いコスト効率"
+      ],
+      "performance": "高速"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Mistralは軽量で高速、高いコスト効率を提供します"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Cohereは知識検索に特化しています",
+    "attributes": {
+      "core_features": [
+        "知識検索に特化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Cohereは知識検索に特化しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "GPT-5は「思考」モードとツール利用能力で、複雑な多段階タスクを高い信頼性で実行します",
+    "attributes": {
+      "core_features": [
+        "「思考」モード",
+        "ツール利用能力",
+        "複雑な多段階タスクを高い信頼性で実行"
+      ],
+      "performance": "高い信頼性"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "GPT-5は「思考」モードとツール利用能力で、複雑な多段階タスクを高い信頼性で実行します"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "o3やo4-miniは、Web検索やコード実行を自動で組み合わせる推論に特化しています",
+    "attributes": {
+      "core_features": [
+        "Web検索やコード実行を自動で組み合わせる推論に特化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "o3やo4-miniは、Web検索やコード実行を自動で組み合わせる推論に特化しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "o3やo4-miniは、Web検索やコード実行を自動で組み合わせる推論に特化しています",
+    "attributes": {
+      "core_features": [
+        "Web検索やコード実行を自動で組み合わせる推論に特化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "o3やo4-miniは、Web検索やコード実行を自動で組み合わせる推論に特化しています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "これらのモデルはオープンソースであり、自社サーバーでの運用が可能です 。これにより、プライバシー保護を徹底し、特定の業務データで独自のファインチューニングを行うことが可能になります 。",
+    "attributes": {
+      "core_features": [
+        "オープンソース",
+        "自社サーバーでの運用が可能",
+        "プライバシー保護を徹底",
+        "特定の業務データで独自のファインチューニングが可能"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "これらのモデルはオープンソースであり、自社サーバーでの運用が可能です 。これにより、プライバシー保護を徹底し、特定の業務データで独自のファインチューニングを行うことが可能になります 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "これらのモデルはオープンソースであり、自社サーバーでの運用が可能です 。これにより、プライバシー保護を徹底し、特定の業務データで独自のファインチューニングを行うことが可能になります 。",
+    "attributes": {
+      "core_features": [
+        "オープンソース",
+        "自社サーバーでの運用が可能",
+        "プライバシー保護を徹底",
+        "特定の業務データで独自のファインチューニングが可能"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "これらのモデルはオープンソースであり、自社サーバーでの運用が可能です 。これにより、プライバシー保護を徹底し、特定の業務データで独自のファインチューニングを行うことが可能になります 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "API料金が極めて安価なGPT-4o mini",
+    "attributes": {
+      "base_price": "極めて安価",
+      "price_type": "API料金"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "API料金が極めて安価なGPT-4o mini"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "日常的な問い合わせや文章生成には十分な性能を持ち、コストパフォーマンスに優れています",
+    "attributes": {
+      "core_features": [
+        "日常的な問い合わせや文章生成に十分な性能",
+        "コストパフォーマンスに優れている"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "日常的な問い合わせや文章生成には十分な性能を持ち、コストパフォーマンスに優れています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "API料金が極めて安価なClaude 3 Haiku",
+    "attributes": {
+      "base_price": "極めて安価",
+      "price_type": "API料金"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "API料金が極めて安価なClaude 3 Haiku"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "日常的な問い合わせや文章生成には十分な性能を持ち、コストパフォーマンスに優れています",
+    "attributes": {
+      "core_features": [
+        "日常的な問い合わせや文章生成に十分な性能",
+        "コストパフォーマンスに優れている"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "日常的な問い合わせや文章生成には十分な性能を持ち、コストパフォーマンスに優れています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "price"
+    ],
+    "summary": "API料金が極めて安価なLlama 3.1 8B Instruct-Turbo",
+    "attributes": {
+      "base_price": "極めて安価",
+      "price_type": "API料金"
+    },
+    "sources": [
+      {
+        "extraction_class": "price",
+        "extraction_text": "API料金が極めて安価なLlama 3.1 8B Instruct-Turbo"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "日常的な問い合わせや文章生成には十分な性能を持ち、コストパフォーマンスに優れています",
+    "attributes": {
+      "core_features": [
+        "日常的な問い合わせや文章生成に十分な性能",
+        "コストパフォーマンスに優れている"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "日常的な問い合わせや文章生成には十分な性能を持ち、コストパフォーマンスに優れています"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Gemini 1.5 Proの超長文処理能力が圧倒的な優位性をもたらします",
+    "attributes": {
+      "core_features": [
+        "超長文処理能力"
+      ],
+      "performance": "圧倒的な優位性"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Gemini 1.5 Proの超長文処理能力が圧倒的な優位性をもたらします"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "数学やコーディングといった特定の技術分野に特化したプロジェクトでは、Llama 3.",
+    "attributes": {
+      "core_features": [
+        "数学やコーディングといった特定の技術分野に特化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "数学やコーディングといった特定の技術分野に特化したプロジェクトでは、Llama 3."
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "3が最高のパフォーマンスを提供します",
+    "attributes": {
+      "performance": "最高のパフォーマンス"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "3が最高のパフォーマンスを提供します"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "GPT-5の「思考」モードと高い信頼性が大きな強みとなります",
+    "attributes": {
+      "core_features": [
+        "思考モード",
+        "高い信頼性"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "GPT-5の「思考」モードと高い信頼性が大きな強みとなります"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "これらのモデルは自社サーバーでの運用が可能であり、ファインチューニングにより、プロプライエタリモデルでは実現できないレベルのカスタマイズ性を享受できます",
+    "attributes": {
+      "core_features": [
+        "自社サーバーでの運用が可能",
+        "ファインチューニングによるカスタマイズ性"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "これらのモデルは自社サーバーでの運用が可能であり、ファインチューニングにより、プロプライエタリモデルでは実現できないレベルのカスタマイズ性を享受できます"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "大規模言語モデル市場が、最高性能を追求するクローズドモデルと、カスタマイズ性・効率性を武器とするオープンソースモデルの二極化という明確なトレンドを示していることを明らかにしました。",
+    "attributes": {
+      "factor_type": "trend",
+      "factors": [
+        "最高性能を追求するクローズドモデルと、カスタマイズ性・効率性を武器とするオープンソースモデルの二極化"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "大規模言語モデル市場が、最高性能を追求するクローズドモデルと、カスタマイズ性・効率性を武器とするオープンソースモデルの二極化という明確なトレンドを示していることを明らかにしました。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "GPT-5やGemini 1.5 Proが汎用性と特定領域での性能を向上させる",
+    "attributes": {
+      "core_features": [
+        "汎用性",
+        "特定領域での性能向上"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "GPT-5やGemini 1.5 Proが汎用性と特定領域での性能を向上させる"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "Llama 3.3のようなオープンソースモデルが、コーディングや数学といった技術分野でクローズドモデルに匹敵、あるいは凌駕する性能を達成しています。",
+    "attributes": {
+      "core_features": [
+        "コーディングや数学といった技術分野での性能"
+      ],
+      "performance": "クローズドモデルに匹敵、あるいは凌駕する性能"
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "Llama 3.3のようなオープンソースモデルが、コーディングや数学といった技術分野でクローズドモデルに匹敵、あるいは凌駕する性能を達成しています。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "エージェント型AIの主流化: 単なる文章生成モデルではなく、自律的にタスクを計画・実行するエージェント機能が主要な競争軸となるでしょう。GPT-5-Codexのような特化型モデルの登場は、この動...",
+    "attributes": {
+      "factor_type": "future trend",
+      "factors": [
+        "エージェント型AIの主流化",
+        "自律的にタスクを計画・実行するエージェント機能が主要な競争軸となる"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "エージェント型AIの主流化: 単なる文章生成モデルではなく、自律的にタスクを計画・実行するエージェント機能が主要な競争軸となるでしょう。GPT-5-Codexのような特化型モデルの登場は、この動きを加速させる兆候です"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "features"
+    ],
+    "summary": "自律的にタスクを計画・実行するエージェント機能",
+    "attributes": {
+      "core_features": [
+        "自律的にタスクを計画・実行するエージェント機能"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "features",
+        "extraction_text": "自律的にタスクを計画・実行するエージェント機能"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "コンテキストサイズの限界とRAGの共存",
+    "attributes": {
+      "factor_type": "future trend",
+      "factors": [
+        "コンテキストサイズの限界とRAGの共存"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "コンテキストサイズの限界とRAGの共存"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "5 ProやLlama 4 Scoutの超長文コンテキストウィンドウは、新たなユースケースを切り開きましたが、その実用的な限界とコストを考慮すると、RAG（Retrieval-Augmented...",
+    "attributes": {
+      "factor_type": "trend",
+      "factors": [
+        "RAG（Retrieval-Augmented Generation）のような外部知識ベースとの連携技術の重要性"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "5 ProやLlama 4 Scoutの超長文コンテキストウィンドウは、新たなユースケースを切り開きましたが、その実用的な限界とコストを考慮すると、RAG（Retrieval-Augmented Generation）のような外部知識ベースとの連携技術は今後も引き続き重要であり続けます 。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "モダリティの完全統合: テキストだけでなく、画像、音声、動画をネイティブに理解し、横断的に推論する能力が、すべての主要モデルで標準機能となるでしょう。これにより、AIの応用範囲はさらに広がり、よ...",
+    "attributes": {
+      "factor_type": "trend",
+      "factors": [
+        "モダリティの完全統合 (テキスト、画像、音声、動画のネイティブ理解と横断的推論)"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "モダリティの完全統合: テキストだけでなく、画像、音声、動画をネイティブに理解し、横断的に推論する能力が、すべての主要モデルで標準機能となるでしょう。これにより、AIの応用範囲はさらに広がり、より人間らしい対話やタスク実行が可能になります。"
+      }
+    ]
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "summary": "LLMの選定においては、単一のベンチマークスコアに惑わされることなく、ユースケース、コスト、レイテンシー、信頼性といった多角的な観点から総合的に評価することが不可欠です。",
+    "attributes": {
+      "factor_type": "selection criteria",
+      "factors": [
+        "ユースケース",
+        "コスト",
+        "レイテンシー",
+        "信頼性"
+      ]
+    },
+    "sources": [
+      {
+        "extraction_class": "factors",
+        "extraction_text": "LLMの選定においては、単一のベンチマークスコアに惑わされることなく、ユースケース、コスト、レイテンシー、信頼性といった多角的な観点から総合的に評価することが不可欠です。"
+      }
+    ]
+  }
+]
