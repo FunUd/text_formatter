@@ -260,25 +260,28 @@ class LangExtractIntegrator:
         attributes_list = [ext.get('attributes', {}) for ext in extractions]
         merged_attributes = self.merge_attributes(attributes_list)
         
-        # summaryの生成
-        summary = self.generate_summary(extractions)
+        # 統合されたテキストを作成（重複を避けて）
+        unique_texts = []
+        seen_texts = set()
         
-        # sourcesの作成
-        sources = []
         for ext in extractions:
-            source = {
-                'extraction_class': ext.get('extraction_class', ''),
-                'extraction_text': ext.get('extraction_text', '')
-            }
-            sources.append(source)
+            text = ext.get('extraction_text', '').strip()
+            if text and text not in seen_texts:
+                unique_texts.append(text)
+                seen_texts.add(text)
         
-        return {
+        # 統合されたテキストを結合（最大3つまで）
+        combined_text = " | ".join(unique_texts[:3])
+        
+        # ベクトルDB化に適した簡潔な形式
+        result = {
             'id': group_key,
             'classes': classes,
-            'summary': summary,
-            'attributes': merged_attributes,
-            'sources': sources
+            'text': combined_text,
+            'attributes': merged_attributes
         }
+        
+        return result
     
     def process_file(self, input_file: str) -> List[Dict[str, Any]]:
         """

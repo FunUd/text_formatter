@@ -56,7 +56,7 @@ python json_integration.py input_file.jsonl -o output_file.json --verbose
 {
   "id": "統合キーの値",
   "classes": ["extraction_class1", "extraction_class2"],
-  "summary": "自動生成された要約文",
+  "text": "統合されたテキスト（重複除去、最大3つまで）",
   "attributes": {
     "キー1": "値1",
     "キー2": ["値2a", "値2b"],
@@ -66,13 +66,7 @@ python json_integration.py input_file.jsonl -o output_file.json --verbose
       ["4.8", "%", "実世界でのエラー率"],
       ["$1.25", "$/1Mトークン", "入力料金", "2024"]
     ]
-  },
-  "sources": [
-    {
-      "extraction_class": "元のクラス",
-      "extraction_text": "元のテキスト"
-    }
-  ]
+  }
 }
 ```
 

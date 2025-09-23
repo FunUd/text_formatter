@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "レポート",
+    "classes": [
+      "date"
+    ],
+    "text": "作成日: 2025-09-15",
+    "attributes": {
+      "category": "作成日",
+      "date": "2025-09-15",
+      "numeric_data": [
+        [
+          "レポート"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "最終更新日",
+    "classes": [
+      "date"
+    ],
+    "text": "最終更新日: 2025-09-20",
+    "attributes": {
+      "category": "最終更新日",
+      "date": "2025-09-20",
+      "numeric_data": [
+        [
+          "レポート"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "作成者",
+    "classes": [
+      "human name"
+    ],
+    "text": "山本良平",
+    "attributes": {
+      "category": "作成者",
+      "name": "山本良平"
+    }
+  },
+  {
+    "id": "report title",
+    "classes": [
+      "title"
+    ],
+    "text": "グローバル・ラボオートメーション市場の現状と将来展望",
+    "attributes": {
+      "category": "report title",
+      "content": "グローバル・ラボオートメーション市場の現状と将来展望"
+    }
+  },
+  {
+    "id": "世界のラボオートメーション市場",
+    "classes": [
+      "numeric_value",
+      "market_size"
+    ],
+    "text": "2024年の市場規模は約78.4億米ドルと推定されています | 2025年には約83.6億米ドルに達し | 2034年には約147.8億米ドルへと成長すると予測されています",
+    "attributes": {
+      "market_type": "世界のラボオートメーション市場",
+      "numeric_data": [
+        [
+          "2024"
+        ],
+        [
+          "約78.4億米ドル",
+          "米ドル",
+          "市場規模",
+          "2024",
+          "世界のラボオートメーション市場"
+        ],
+        [
+          "2025"
+        ],
+        [
+          "約83.6億米ドル",
+          "米ドル",
+          "市場規模",
+          "2025",
+          "世界のラボオートメーション市場"
+        ],
+        [
+          "2034"
+        ],
+        [
+          "約147.8億米ドル",
+          "米ドル",
+          "市場規模",
+          "2034",
+          "世界のラボオートメーション市場"
+        ],
+        [
+          "約6.5%",
+          "%",
+          "年平均成長率（CAGR）",
+          "2024-2034",
+          "世界のラボオートメーション市場"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "北米市場",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "北米市場は依然として最大シェアを占めており、2024年時点で約38%とされています",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約38%",
+          "%",
+          "市場シェア",
+          "2024",
+          "北米市場"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "欧州",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "欧州が約30% | 欧州\t30",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約30%",
+          "%",
+          "市場シェア",
+          "2024",
+          "欧州"
+        ],
+        [
+          "30%",
+          "%",
+          "市場シェア",
+          "2024",
+          "欧州"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "アジア太平洋",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "アジア太平洋が約25% | アジア太平洋\t25 | 8%台の高いCAGRで成長する見通しです",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約25%",
+          "%",
+          "市場シェア",
+          "2024",
+          "アジア太平洋"
+        ],
+        [
+          "25%",
+          "%",
+          "市場シェア",
+          "2024",
+          "アジア太平洋"
+        ],
+        [
+          "8%台",
+          "%",
+          "CAGR",
+          "アジア太平洋"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "中南米",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "中南米5% | 中南米\t5",
+    "attributes": {
+      "numeric_data": [
+        [
+          "5%",
+          "%",
+          "市場シェア",
+          "2024",
+          "中南米"
+        ],
+        [
+          "5%",
+          "%",
+          "市場シェア",
+          "2024",
+          "中南米"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "中東・アフリカ",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "中東・アフリカ2% | 中東・アフリカ\t2",
+    "attributes": {
+      "numeric_data": [
+        [
+          "2%",
+          "%",
+          "市場シェア",
+          "2024",
+          "中東・アフリカ"
+        ],
+        [
+          "2%",
+          "%",
+          "市場シェア",
+          "2024",
+          "中東・アフリカ"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "北米",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "北米\t38",
+    "attributes": {
+      "numeric_data": [
+        [
+          "38%",
+          "%",
+          "市場シェア",
+          "2024",
+          "北米"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "世界",
+    "classes": [
+      "シェア"
+    ],
+    "text": "上位5社が世界シェアの約45～60%を占めています",
+    "attributes": {
+      "company": "上位5社",
+      "application": "世界"
+    }
+  },
+  {
+    "id": "上位5社",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "上位5社が世界シェアの約45～60%を占めています",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約45～60%",
+          "%",
+          "世界シェア",
+          "上位5社"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "Thermo Fisher Scientific",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Thermo Fisher Scientific | Thermo Fisher Scientific は幅広い製品ポートフォリオを誇り、2023年にはスウェーデンのプロテオミクス企業Olinkを買収し領域強化を図りました",
+    "attributes": {
+      "company_name": "Thermo Fisher Scientific"
+    }
+  },
+  {
+    "id": "Tecan",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Tecan",
+    "attributes": {
+      "company_name": "Tecan"
+    }
+  },
+  {
+    "id": "Danaher",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Danaher（Beckman Coulterなど）",
+    "attributes": {
+      "company_name": "Danaher"
+    }
+  },
+  {
+    "id": "Agilent",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Agilent",
+    "attributes": {
+      "company_name": "Agilent"
+    }
+  },
+  {
+    "id": "Roche",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Roche（F. Hoffmann-La Roche）",
+    "attributes": {
+      "company_name": "Roche"
+    }
+  },
+  {
+    "id": "機器系市場",
+    "classes": [
+      "シェア"
+    ],
+    "text": "2024年の機器系市場の中心は自動液体ハンドラ（市場の約32%）",
+    "attributes": {
+      "company": "自動液体ハンドラ",
+      "application": "機器系市場",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "自動液体ハンドラ",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2024年の機器系市場の中心は自動液体ハンドラ（市場の約32%）",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約32%",
+          "%",
+          "市場",
+          "2024",
+          "自動液体ハンドラ"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ソフトウェア",
+    "classes": [
+      "シェア"
+    ],
+    "text": "ソフトウェアではLIMSプラットフォームが約38%を占めています",
+    "attributes": {
+      "company": "LIMSプラットフォーム",
+      "application": "ソフトウェア"
+    }
+  },
+  {
+    "id": "LIMSプラットフォーム",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "ソフトウェアではLIMSプラットフォームが約38%を占めています",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約38%",
+          "%",
+          "市場",
+          "LIMSプラットフォーム"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "プロセス分類",
+    "classes": [
+      "シェア"
+    ],
+    "text": "プロセス分類では「連続フロー（Continuous Flow）」が2022年に市場の約57%を占め",
+    "attributes": {
+      "company": "連続フロー（Continuous Flow）",
+      "application": "プロセス分類",
+      "numeric_data": [
+        [
+          "2022"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "連続フロー（Continuous Flow）",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "プロセス分類では「連続フロー（Continuous Flow）」が2022年に市場の約57%を占め",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約57%",
+          "%",
+          "市場",
+          "2022",
+          "連続フロー（Continuous Flow）"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "オートメーション型",
+    "classes": [
+      "シェア"
+    ],
+    "text": "オートメーション型では「モジュール型システム」が約52%を占めています",
+    "attributes": {
+      "company": "モジュール型システム",
+      "application": "オートメーション型"
+    }
+  },
+  {
+    "id": "モジュール型システム",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "オートメーション型では「モジュール型システム」が約52%を占めています",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約52%",
+          "%",
+          "市場",
+          "モジュール型システム"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "創薬・バイオ研究分野",
+    "classes": [
+      "needs"
+    ],
+    "text": "創薬・バイオ研究分野（ドラッグディスカバリー、ゲノミクス、プロテオミクスなど）や臨床診断（臨床化学分析や遺伝子検査）における自動化ニーズが高まっています",
+    "attributes": {
+      "application": "創薬・バイオ研究分野",
+      "needs": "自動化ニーズ",
+      "trends": "高まっています"
+    }
+  },
+  {
+    "id": "臨床診断",
+    "classes": [
+      "needs"
+    ],
+    "text": "創薬・バイオ研究分野（ドラッグディスカバリー、ゲノミクス、プロテオミクスなど）や臨床診断（臨床化学分析や遺伝子検査）における自動化ニーズが高まっています",
+    "attributes": {
+      "application": "臨床診断",
+      "needs": "自動化ニーズ",
+      "trends": "高まっています"
+    }
+  },
+  {
+    "id": "臨床診断分野",
+    "classes": [
+      "numeric_value",
+      "needs"
+    ],
+    "text": "特に臨床診断分野は2024年に市場シェア約27%を占め | 今後も高齢化や慢性疾患増加に伴い検査量増に対応した自動化需要が見込まれます",
+    "attributes": {
+      "application": "臨床診断分野",
+      "needs": "高齢化や慢性疾患増加に伴い検査量増に対応した自動化需要",
+      "trends": "見込まれます",
+      "numeric_data": [
+        [
+          "約27%",
+          "%",
+          "市場シェア",
+          "2024",
+          "臨床診断分野"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "製薬・バイオテクノロジー分野（創薬研究・開発）",
+    "classes": [
+      "needs"
+    ],
+    "text": "製薬・バイオテクノロジー分野（創薬研究・開発）：新薬候補化合物の大量スクリーニングやゲノム解析などで高い処理能力が求められ、ドラッグディスカバリー／ゲノミクス／プロテオミクスの自動化ニーズが増加中です",
+    "attributes": {
+      "application": "製薬・バイオテクノロジー分野（創薬研究・開発）",
+      "needs": "新薬候補化合物の大量スクリーニングやゲノム解析などで高い処理能力が求められ、ドラッグディスカバリー／ゲノミクス／プロテオミクスの自動化ニーズ",
+      "trends": "増加中です"
+    }
+  },
+  {
+    "id": "臨床検査・診断分野",
+    "classes": [
+      "needs"
+    ],
+    "text": "臨床検査・診断分野：病院や検査センターでは臨床化学分析や分子診断試験の効率化が急務で、検体処理の迅速化・エラー削減に貢献します。",
+    "attributes": {
+      "application": "臨床検査・診断分野",
+      "needs": "臨床化学分析や分子診断試験の効率化、検体処理の迅速化・エラー削減",
+      "trends": "急務"
+    }
+  },
+  {
+    "id": "臨床診断用途",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "臨床診断用途は2024年に市場の約27%を占めています",
+    "attributes": {
+      "numeric_data": [
+        [
+          "約27",
+          "%",
+          "市場シェア",
+          "2024",
+          "臨床診断用途"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "化学・分析産業",
+    "classes": [
+      "needs"
+    ],
+    "text": "化学・分析産業：環境分析、食品検査、化学プロセス管理などでも試料前処理や反応解析の自動化需要が拡大しています",
+    "attributes": {
+      "application": "化学・分析産業",
+      "needs": "試料前処理や反応解析の自動化需要",
+      "trends": "拡大しています"
+    }
+  },
+  {
+    "id": "研究・教育機関",
+    "classes": [
+      "needs"
+    ],
+    "text": "研究・教育機関：大学や研究所では、実験効率向上のために液体ハンドリングロボットやマイクロプレート自動化システムなどが広く導入されています。",
+    "attributes": {
+      "application": "研究・教育機関",
+      "needs": "実験効率向上",
+      "trends": "液体ハンドリングロボットやマイクロプレート自動化システムなどが広く導入されています"
+    }
+  },
+  {
+    "id": "細胞培養自動化",
+    "classes": [
+      "needs"
+    ],
+    "text": "これらのほか、細胞培養自動化やバイオプロセス自動化、環境・農業分野での利用なども注目されており、応用領域は拡大傾向にあります",
+    "attributes": {
+      "application": "細胞培養自動化",
+      "trends": "注目されており、応用領域は拡大傾向にあります"
+    }
+  },
+  {
+    "id": "バイオプロセス自動化",
+    "classes": [
+      "needs"
+    ],
+    "text": "これらのほか、細胞培養自動化やバイオプロセス自動化、環境・農業分野での利用なども注目されており、応用領域は拡大傾向にあります",
+    "attributes": {
+      "application": "バイオプロセス自動化",
+      "trends": "注目されており、応用領域は拡大傾向にあります"
+    }
+  },
+  {
+    "id": "環境・農業分野",
+    "classes": [
+      "needs"
+    ],
+    "text": "これらのほか、細胞培養自動化やバイオプロセス自動化、環境・農業分野での利用なども注目されており、応用領域は拡大傾向にあります",
+    "attributes": {
+      "application": "環境・農業分野",
+      "trends": "注目されており、応用領域は拡大傾向にあります"
+    }
+  },
+  {
+    "id": "Tecan Group",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Tecan Group はスイス企業でロボティック液体ハンドラなどに強みを持ち、2024年2月には個別化医療や創薬研究向けワークステーション「Resolve i1300」を発表しました",
+    "attributes": {
+      "company_name": "Tecan Group"
+    }
+  },
+  {
+    "id": "ワークステーション",
+    "classes": [
+      "name"
+    ],
+    "text": "ワークステーション「Resolve i1300」",
+    "attributes": {
+      "product_name": "Resolve i1300",
+      "category": "ワークステーション"
+    }
+  },
+  {
+    "id": "Danaher Corporation",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Danaher Corporation（Beckman Coulterなどを傘下）",
+    "attributes": {
+      "company_name": "Danaher Corporation"
+    }
+  },
+  {
+    "id": "Agilent Technologies",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Agilent Technologies",
+    "attributes": {
+      "company_name": "Agilent Technologies"
+    }
+  },
+  {
+    "id": "F. Hoffmann-La Roche",
+    "classes": [
+      "market_player"
+    ],
+    "text": "F. Hoffmann-La Roche",
+    "attributes": {
+      "company_name": "F. Hoffmann-La Roche"
+    }
+  },
+  {
+    "id": "Qiagen",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Qiagen",
+    "attributes": {
+      "company_name": "Qiagen"
+    }
+  },
+  {
+    "id": "PerkinElmer",
+    "classes": [
+      "market_player"
+    ],
+    "text": "PerkinElmer",
+    "attributes": {
+      "company_name": "PerkinElmer"
+    }
+  },
+  {
+    "id": "Siemens Healthineers",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Siemens Healthineers",
+    "attributes": {
+      "company_name": "Siemens Healthineers"
+    }
+  },
+  {
+    "id": "Eppendorf",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Eppendorf",
+    "attributes": {
+      "company_name": "Eppendorf"
+    }
+  },
+  {
+    "id": "BD (Becton Dickinson)",
+    "classes": [
+      "market_player"
+    ],
+    "text": "BD（Becton Dickinson）",
+    "attributes": {
+      "company_name": "BD (Becton Dickinson)"
+    }
+  },
+  {
+    "id": "Waters",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Waters",
+    "attributes": {
+      "company_name": "Waters"
+    }
+  },
+  {
+    "id": "Hamilton",
+    "classes": [
+      "market_player"
+    ],
+    "text": "Hamilton",
+    "attributes": {
+      "company_name": "Hamilton"
+    }
+  },
+  {
+    "id": "人工知能（AI）・機械学習",
+    "classes": [
+      "needs"
+    ],
+    "text": "人工知能（AI）・機械学習：画像認識やパターン分析でAIを活用し、実験プロトコルの最適化や予測保守（予防保全）に利用する動きが増えています",
+    "attributes": {
+      "application": "人工知能（AI）・機械学習",
+      "needs": "画像認識やパターン分析でAIを活用し、実験プロトコルの最適化や予測保守（予防保全）に利用",
+      "trends": "動きが増えています"
+    }
+  },
+  {
+    "id": "IoT・接続性",
+    "classes": [
+      "needs"
+    ],
+    "text": "IoT・接続性：機器のインターネット接続により遠隔モニタリングやデータ共有が可能となり、実験プロセスの可視化や情報統合が進んでいます",
+    "attributes": {
+      "application": "IoT・接続性",
+      "needs": "機器のインターネット接続により遠隔モニタリングやデータ共有が可能となり、実験プロセスの可視化や情報統合",
+      "trends": "進んでいます"
+    }
+  },
+  {
+    "id": "ミニチュア化・マイクロ流体技術",
+    "classes": [
+      "needs"
+    ],
+    "text": "ミニチュア化・マイクロ流体技術：反応容器やチップ技術の小型化によって、より小さな試料量で迅速な実験が可能になり、新しいアッセイへの展開を促しています",
+    "attributes": {
+      "application": "ミニチュア化・マイクロ流体技術",
+      "needs": "反応容器やチップ技術の小型化によって、より小さな試料量で迅速な実験が可能になり、新しいアッセイへの展開",
+      "trends": "促しています"
+    }
+  },
+  {
+    "id": "デジタルラボ化・インフォマティクス",
+    "classes": [
+      "needs"
+    ],
+    "text": "デジタルラボ化・インフォマティクス：LIMSやELNなどの研究情報管理ソフトが充実し、実験データの統合・解析が容易になっています",
+    "attributes": {
+      "application": "デジタルラボ化・インフォマティクス",
+      "needs": "LIMSやELNなどの研究情報管理ソフトが充実し、実験データの統合・解析が容易",
+      "trends": "容易になっています"
+    }
+  },
+  {
+    "id": "新興技術分野",
+    "classes": [
+      "needs"
+    ],
+    "text": "新興技術分野：バイオ医薬品製造（セル/遺伝子治療）や分子診断、次世代シーケンシング（NGS）などで専用自動化装置が開発され、専門分野への適用が進んでいます",
+    "attributes": {
+      "application": "新興技術分野",
+      "needs": "バイオ医薬品製造（セル/遺伝子治療）や分子診断、次世代シーケンシング（NGS）などで専用自動化装置が開発され、専門分野への適用",
+      "trends": "進んでいます"
+    }
+  },
+  {
+    "id": "ラボオートメーション市場",
+    "classes": [
+      "needs"
+    ],
+    "text": "ラボオートメーション市場は「効率化・高スループット化」のニーズを背景に成長しています。 | 大量の検体処理や迅速な結果取得への要求が強く、実験の精度向上やコスト削減につながる自動化システムへの期待が高まっています",
+    "attributes": {
+      "application": "ラボオートメーション市場",
+      "needs": [
+        "効率化・高スループット化",
+        "大量の検体処理や迅速な結果取得への要求が強く、実験の精度向上やコスト削減につながる自動化システムへの期待"
+      ],
+      "trends": [
+        "成長しています",
+        "期待が高まっています"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "この間の年平均成長率（CAGR）は約6.5%に達する見込みです",
+    "attributes": {
+      "forecasts": [
+        "約6.5% (2024-2034)"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "北米市場は依然として最大シェアを占めており、2024年時点で約38%とされています",
+    "attributes": {
+      "company": "北米市場",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "欧州が約30%",
+    "attributes": {
+      "company": "欧州",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "アジア太平洋が約25%",
+    "attributes": {
+      "company": "アジア太平洋",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "中南米5%",
+    "attributes": {
+      "company": "中南米",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "中東・アフリカ2%",
+    "attributes": {
+      "company": "中東・アフリカ",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "北米\t38",
+    "attributes": {
+      "company": "北米",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "欧州\t30",
+    "attributes": {
+      "company": "欧州",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "アジア太平洋\t25",
+    "attributes": {
+      "company": "アジア太平洋",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "中南米\t5",
+    "attributes": {
+      "company": "中南米",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "中東・アフリカ\t2",
+    "attributes": {
+      "company": "中東・アフリカ",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "アジア太平洋では製薬・バイオテクノロジー研究や診断分野の需要増加により、8%台の高いCAGRで成長する見通しです",
+    "attributes": {
+      "forecasts": [
+        "8%台の高いCAGR"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "シェア"
+    ],
+    "text": "特に臨床診断分野は2024年に市場シェア約27%を占め",
+    "attributes": {
+      "company": "臨床診断分野",
+      "numeric_data": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "Precedence Researchは2025～2034年のCAGRを約6.55%とし、2034年に約147.8億ドルに達すると見込んでいます",
+    "attributes": {
+      "forecasts": [
+        "2025～2034年のCAGRを約6.55%とし、2034年に約147.8億ドルに達する"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "GM InsightsがCAGR約6.7%で2032年に112億ドルと予測",
+    "attributes": {
+      "forecasts": [
+        "2024～2032年のCAGR約6.7%で2032年に112億ドル"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "MarketsandMarketsは2025～2030年に7.2%のCAGRで2030年に90.",
+    "attributes": {
+      "forecasts": [
+        "2025～2030年に7.2%のCAGRで2030年に90."
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "1億ドルを見込みます",
+    "attributes": {
+      "numeric_data": [
+        [
+          "1億",
+          "ドル",
+          "見込み"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "2025～2030年CAGRを6.82%",
+    "attributes": {
+      "forecasts": [
+        "2025-2030年CAGR 6.82%"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2030年に92.6億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "92.6億",
+          "ドル",
+          "市場規模",
+          "2030"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2024年78.4億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "78.4億",
+          "ドル",
+          "市場規模",
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2034年147.8億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "147.8億",
+          "ドル",
+          "市場規模",
+          "2034"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "CAGR 6.55%",
+    "attributes": {
+      "forecasts": [
+        "2024-2034年CAGR 6.55%"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2023年67億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "67億",
+          "ドル",
+          "市場規模",
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2032年112億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "112億",
+          "ドル",
+          "市場規模",
+          "2032"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "CAGR 6.7%",
+    "attributes": {
+      "forecasts": [
+        "2023-2032年CAGR 6.7%"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2025年63.6億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "63.6億",
+          "ドル",
+          "市場規模",
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2030年90.1億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "90.1億",
+          "ドル",
+          "市場規模",
+          "2030"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "CAGR 7.2%",
+    "attributes": {
+      "forecasts": [
+        "2025-2030年CAGR 7.2%"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2025年66.5億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "66.5億",
+          "ドル",
+          "市場規模",
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "numeric_value"
+    ],
+    "text": "2030年92.6億ドル",
+    "attributes": {
+      "numeric_data": [
+        [
+          "92.6億",
+          "ドル",
+          "市場規模",
+          "2030"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "growth_forecast"
+    ],
+    "text": "CAGR 6.82%",
+    "attributes": {
+      "forecasts": [
+        "2025-2030年CAGR 6.82%"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "ロボティクスと高スループット機器：多関節ロボットアームやプレートハンドラーなどの自動化装置が普及し、サンプル搬送・前処理の効率が向上しています",
+    "attributes": {
+      "factor_type": "technology trends",
+      "factors": [
+        "ロボティクスと高スループット機器",
+        "多関節ロボットアームやプレートハンドラーなどの自動化装置が普及し、サンプル搬送・前処理の効率が向上"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "specifications"
+    ],
+    "text": "多関節ロボットアームやプレートハンドラーなどの自動化装置が普及し、サンプル搬送・前処理の効率が向上しています",
+    "attributes": {
+      "technical_specs": "多関節ロボットアームやプレートハンドラーなどの自動化装置"
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "これら技術の融合により、実験の再現性向上やコスト削減、研究スピード向上が期待されています",
+    "attributes": {
+      "factor_type": "growth",
+      "factors": [
+        "実験の再現性向上",
+        "コスト削減",
+        "研究スピード向上"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "高コスト：自動化機器は初期投資額や保守コストが高額になる傾向があり、小規模ラボでは導入の障壁となりえます",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "高コスト"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "熟練人材不足：高度な自動化システムの操作・メンテナンスには専門知識が必要で、特に新興国や地方では技術者不足が問題視されています",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "熟練人材不足"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "規制・標準化：医療機器規制やデータ規格が国・地域ごとに異なり、グローバル展開には複雑な認証対応やデータ管理ルールの調整が求められます",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "規制・標準化"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "サイバーセキュリティ・データ統合：装置のネットワーク化に伴い、実験データや個人情報の保護が重要課題となっています",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "サイバーセキュリティ・データ統合"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "既存ワークフローとの整合性：既設機器・プロセスとの連携や互換性を確保する必要があり、導入前の検証やシステム統合にも手間がかかります。",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "既存ワークフローとの整合性"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "将来の機会としては、AI・デジタル化のさらなる進展が挙げられます。AI解析による実験最適化やスマートラボの構築、IoTによる実験環境のリアルタイム監視などが普及すれば、新たな価値創造が可能です",
+    "attributes": {
+      "factor_type": "growth",
+      "factors": [
+        "AI・デジタル化のさらなる進展",
+        "AI解析による実験最適化",
+        "スマートラボの構築",
+        "IoTによる実験環境のリアルタイム監視"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "また、新興国市場（中国、インド、東南アジア等）では研究開発投資の増加やインフラ整備により大きな伸びが期待されます",
+    "attributes": {
+      "factor_type": "growth",
+      "factors": [
+        "新興国市場（中国、インド、東南アジア等）での研究開発投資の増加",
+        "新興国市場（中国、インド、東南アジア等）でのインフラ整備"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "さらに、個別化医療・ゲノム医療の進展で検査ニーズが拡大し、高度分析・大量サンプル処理能力を備えた自動化ソリューションへの需要が高まるでしょう",
+    "attributes": {
+      "factor_type": "growth",
+      "factors": [
+        "個別化医療・ゲノム医療の進展による検査ニーズ拡大",
+        "高度分析・大量サンプル処理能力を備えた自動化ソリューションへの需要増加"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "一方、課題としては前述のコスト・規制対応・人材問題のほか、市場競争の激化や技術標準化の遅れが挙げられます。既存装置との互換性確保やデータフォーマットの標準化が進まないと、企業はシステムの拡張・統合に苦慮します。また、クラウド利用やリモート機器操作に伴うセキュリティ対策も不可欠です",
+    "attributes": {
+      "factor_type": "risk",
+      "factors": [
+        "コスト",
+        "規制対応",
+        "人材問題",
+        "市場競争の激化",
+        "技術標準化の遅れ",
+        "既存装置との互換性確保",
+        "データフォーマットの標準化",
+        "クラウド利用やリモート機器操作に伴うセキュリティ対策"
+      ]
+    }
+  },
+  {
+    "id": "standalone_0",
+    "classes": [
+      "factors"
+    ],
+    "text": "これらの課題を解決しつつ、成長機会を取り込むためには、企業・研究機関間の連携強化と継続的な技術革新が重要となります。",
+    "attributes": {
+      "factor_type": "growth",
+      "factors": [
+        "企業・研究機関間の連携強化",
+        "継続的な技術革新"
+      ]
+    }
+  }
+]
