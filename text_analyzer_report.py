@@ -3,9 +3,44 @@ import textwrap
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import logging
+from datetime import datetime
 
 # 環境変数の読み込み
 load_dotenv()
+
+class DebugLogger:
+    def __init__(self):
+        self._log_file = None
+        self.logger = logging.getLogger("debug")
+        self.logger.setLevel(logging.DEBUG)
+        self._handler = None
+
+    @property
+    def log_file(self):
+        return self._log_file
+
+    @log_file.setter
+    def log_file(self, path):
+        # 現在のハンドラーを削除
+        if self._handler:
+            self.logger.removeHandler(self._handler)
+            self._handler = None
+
+        self._log_file = path
+        if path:
+            # 新しいファイルハンドラーを作成
+            self._handler = logging.FileHandler(path, mode='w', encoding='utf-8')
+            formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+            self._handler.setFormatter(formatter)
+            self.logger.addHandler(self._handler)
+
+    def debug(self, message):
+        if self._handler:
+            self.logger.debug(message)
+
+# グローバルなデバッグロガーのインスタンスを作成
+debug_logger = DebugLogger()
 
 # 1. Define the prompt and extraction rules
 prompt = textwrap.dedent("""\
@@ -508,16 +543,53 @@ def get_model_config(use_local=True):
 def debug_print(debug_mode, *args, **kwargs):
     """デバッグモードが有効な場合にのみメッセージを表示する"""
     if debug_mode:
+        # コンソールに出力
         print(*args, **kwargs)
+        # デバッグログにも出力
+        message = " ".join(str(arg) for arg in args)
+        debug_logger.debug(message)
 
 def process_text(text, output_prefix, output_dir, use_local=True, debug_mode=False):
     """Process a single text and save the results with the given prefix"""
+    start_time = datetime.now()
+    
     # Get model configuration
     model_config = get_model_config(use_local)
     
+    if debug_mode:
+        debug_print(debug_mode, "\n=== Process Start ===")
+        debug_print(debug_mode, f"Start time: {start_time.isoformat()}")
+        debug_print(debug_mode, f"Output prefix: {output_prefix}")
+        debug_print(debug_mode, f"Output directory: {output_dir}")
+        debug_print(debug_mode, f"Use local model: {use_local}")
+        
+        # Input text details
+        debug_print(debug_mode, "\n=== Input Text ===")
+        debug_print(debug_mode, f"Text length: {len(text)} characters")
+        debug_print(debug_mode, "Text content:")
+        debug_print(debug_mode, text)
+        
+        # Prompt and examples
+        debug_print(debug_mode, "\n=== Prompt and Examples ===")
+        debug_print(debug_mode, "Prompt:")
+        debug_print(debug_mode, prompt)
+        debug_print(debug_mode, "\nNumber of examples:", len(examples))
+        for i, example in enumerate(examples, 1):
+            debug_print(debug_mode, f"\nExample {i}:")
+            debug_print(debug_mode, f"Input text: {example.text}")
+            debug_print(debug_mode, f"Extractions: {example.extractions}")
+    
     try:
+        # LLMリクエストの詳細をログに記録
         debug_print(debug_mode, "\n=== Sending request to LLM ===")
         debug_print(debug_mode, f"Using model: {model_config.get('model_id', 'unknown')}")
+        debug_print(debug_mode, "Model configuration:")
+        for key, value in model_config.items():
+            if key != 'api_key':  # APIキーはログに残さない
+                debug_print(debug_mode, f"  {key}: {value}")
+        
+        request_time = datetime.now()
+        debug_print(debug_mode, f"Request time: {request_time.isoformat()}")
         
         # Run the extraction
         result = lx.extract(
@@ -527,24 +599,44 @@ def process_text(text, output_prefix, output_dir, use_local=True, debug_mode=Fal
             **model_config
         )
         
+        response_time = datetime.now()
+        debug_print(debug_mode, f"Response received time: {response_time.isoformat()}")
+        debug_print(debug_mode, f"Response time: {response_time - request_time}")
+        
         # Print the raw response for debugging
         debug_print(debug_mode, "\n=== Raw LLM Response ===")
         debug_print(debug_mode, f"Response type: {type(result)}")
-        debug_print(debug_mode, f"Response content: {result}")
+        debug_print(debug_mode, f"Response content:")
+        debug_print(debug_mode, result)
         
         if debug_mode and isinstance(result, dict):
-            debug_print(debug_mode, "\n=== Response Keys ===")
-            debug_print(debug_mode, result.keys())
+            debug_print(debug_mode, "\n=== Response Analysis ===")
+            debug_print(debug_mode, "Response keys:", result.keys())
             
-            if 'extractions' not in result:
+            if 'extractions' in result:
+                extractions = result['extractions']
+                debug_print(debug_mode, f"Number of extractions: {len(extractions)}")
+                for i, extraction in enumerate(extractions, 1):
+                    debug_print(debug_mode, f"\nExtraction {i}:")
+                    debug_print(debug_mode, f"Class: {extraction.get('extraction_class')}")
+                    debug_print(debug_mode, f"Text: {extraction.get('extraction_text')}")
+                    debug_print(debug_mode, f"Attributes: {extraction.get('attributes')}")
+            else:
                 debug_print(debug_mode, "\n!!! WARNING: 'extractions' key not found in response !!!")
                 if 'error' in result:
                     debug_print(debug_mode, f"Error from API: {result['error']}")
                     
     except Exception as e:
-        print(f"\n!!! ERROR during extraction: {str(e)} !!!")
-        import traceback
-        traceback.print_exc()
+        error_time = datetime.now()
+        error_msg = f"\n!!! ERROR during extraction: {str(e)} !!!"
+        print(error_msg)
+        if debug_mode:
+            debug_print(debug_mode, "\n=== Error Details ===")
+            debug_print(debug_mode, f"Error time: {error_time.isoformat()}")
+            debug_print(debug_mode, error_msg)
+            debug_print(debug_mode, "\nStack trace:")
+            import traceback
+            debug_print(debug_mode, traceback.format_exc())
         return  # Exit the function if there was an error
 
     # Create output directory if it doesn't exist
@@ -555,6 +647,11 @@ def process_text(text, output_prefix, output_dir, use_local=True, debug_mode=Fal
     html_file = output_dir / f"{output_prefix}_visualization.html"
 
     # Save the results to a JSONL file
+    if debug_mode:
+        debug_print(debug_mode, "\n=== Saving Results ===")
+        debug_print(debug_mode, f"JSONL file: {jsonl_file}")
+        debug_print(debug_mode, f"HTML file: {html_file}")
+    
     lx.io.save_annotated_documents([result], output_name=jsonl_file.name, output_dir=str(output_dir))
 
     # Generate the visualization from the file
@@ -565,11 +662,24 @@ def process_text(text, output_prefix, output_dir, use_local=True, debug_mode=Fal
         else:
             f.write(html_content)
     
-    print(f"Processed and saved results to {output_dir}/{output_prefix}_*")
+    completion_message = f"Processed and saved results to {output_dir}/{output_prefix}_*"
+    print(completion_message)
+    
+    if debug_mode:
+        end_time = datetime.now()
+        debug_print(debug_mode, "\n=== Process Complete ===")
+        debug_print(debug_mode, f"End time: {end_time.isoformat()}")
+        debug_print(debug_mode, completion_message)
+        debug_print(debug_mode, f"Total processing time: {end_time - start_time}")
 
 def main():
     import argparse
-    
+    from pathlib import Path
+    global debug_logger
+
+    # filter_results関数をインポート
+    # filter_resultsはこのモジュール内で定義されているので、明示的なインポートは不要
+
     # コマンドライン引数の設定
     parser = argparse.ArgumentParser(description='不具合チケット情報抽出ツール')
     parser.add_argument('--online', action='store_true',
@@ -585,32 +695,73 @@ def main():
     # Create input directory if it doesn't exist
     input_dir.mkdir(exist_ok=True)
     
+    # デバッグ情報の初期化
+    if args.debug:
+        debug_logger.log_file = output_dir / "main.log"
+        debug_print(True, "\n=== Text Analysis Process Started ===")
+        debug_print(True, f"Start time: {datetime.now().isoformat()}")
+        debug_print(True, f"Input directory: {input_dir}")
+        debug_print(True, f"Output directory: {output_dir}")
+        debug_print(True, f"Online mode: {args.online}")
+    
     # Process all markdown files in the input directory
     md_files = list(input_dir.glob("*.md"))
     
     if not md_files:
-        print(f"No markdown files found in {input_dir}/. Please add some .md files to process.")
+        message = f"No markdown files found in {input_dir}/. Please add some .md files to process."
+        print(message)
+        if args.debug:
+            debug_print(True, f"\n!!! WARNING: {message}")
         return
     
     # モデルの種類を表示
     model_config = get_model_config(not args.online)
-    print(f"Using model: {model_config['model_id']}")
+    model_info = f"Using model: {model_config['model_id']}"
+    print(model_info)
+    if args.debug:
+        debug_print(True, f"\n=== Model Configuration ===")
+        debug_print(True, model_info)
+        debug_print(True, f"Total files to process: {len(md_files)}")
+        debug_print(True, "Files to process:")
+        for md_file in md_files:
+            debug_print(True, f"  - {md_file.name}")
     
     total_files = len(md_files)
     for index, md_file in enumerate(md_files, 1):
-        print(f"\n📄 Processing file [{index}/{total_files}]: {md_file.name}")
-        try:
-            with open(md_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            # Use the filename without extension as the output prefix
-            output_prefix = md_file.stem
-            process_text(content, output_prefix, output_dir, 
-                       use_local=not args.online,
-                       debug_mode=args.debug)
-            
-        except Exception as e:
-            print(f"Error processing {md_file}: {str(e)}")
+            if not md_file.exists():
+                print(f"Skipping missing file [{index}/{total_files}]: {md_file.name}")
+                continue
+            print(f"\n📄 Processing file [{index}/{total_files}]: {md_file.name}")
+            try:
+                with open(md_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                output_prefix = md_file.stem
+                # --debug有効時はファイルごとにデバッグログ出力先を設定
+                if args.debug:
+                    debug_logger.log_file = output_dir / f"debug_{md_file.stem}.log"
+                else:
+                    debug_logger.log_file = None
+                process_text(content, output_prefix, output_dir, 
+                           use_local=not args.online,
+                           debug_mode=args.debug)
+                result_file = output_dir / f"{output_prefix}_results.jsonl"
+                if result_file.exists() and (args.filter_class or args.filter_attribute):
+                    filtered = filter_results(
+                        result_file,
+                        class_name=args.filter_class,
+                        attribute_name=args.filter_attribute,
+                        attribute_value=args.filter_value
+                    )
+                    if filtered:
+                        filtered_file = output_dir / f"{output_prefix}_filtered_results.jsonl"
+                        import json
+                        with open(filtered_file, 'w', encoding='utf-8') as f:
+                            for result in filtered:
+                                json.dump(result, f, ensure_ascii=False)
+                                f.write('\n')
+                        print(f"Filtered results saved to {filtered_file}")
+            except Exception as e:
+                print(f"Error processing {md_file}: {str(e)}")
 
 if __name__ == "__main__":
     main()
