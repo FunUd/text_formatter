@@ -22,9 +22,20 @@ class LangExtractIntegrator:
     """
     
     # 統合キーとして使用するattributesのキー
+    # out配下の既存JSONを走査した結果、以下のキーが同義語として混在
+    # - product_name / product name
+    # - model_name   / model name
+    # 既存のキーは維持しつつ、スペース区切りの別名も受け付ける
     INTEGRATION_KEYS = {
-        'product_name', 'model_name', 'category', 'application', 
-        'company_name', 'name', 'target', 'market_type'
+        # 製品・モデル名（表記ゆれ対応）
+        'product_name', 'product name',
+        'model_name', 'model name',
+        # 分類・用途
+        'category', 'application',
+        # 企業・名称など
+        'company_name', 'name',
+        # その他既存キー
+        'target', 'market_type'
     }
     
     def __init__(self):
